@@ -1,3 +1,14 @@
+/**********************
+	GLOBAL STYLES
+	****************/
+.section {
+	/*border: 2px solid yellow;*/
+	padding: 15px;
+	/*background-color: #e4f9d9;*/
+}
+
+
+
 /**************************
 	HEADER
 	********************/
@@ -19,7 +30,13 @@ header {
 	bottom: 15px; right: 15px;
 	font-weight: 700;
 	color: black;
+	font-style: italic;
 }
+#search-box {
+	position: absolute;
+	right: 15px; top: 15px;
+}
+
 
 /***************************
 	NAVIGATION
@@ -30,31 +47,57 @@ nav {
 }
 nav ul {
 	list-style-type: none;
-	padding-left: 0;
-	margin: 0;
+	padding: 0 !important;
+	margin-bottom: 0;
 }
 nav ul li {
 	display: inline-block;
-	width: 24.5%;
+	float: left;
+	width: 200px;
 	text-align: center;
 }
 nav ul li a {
 	color: #f8fff4;
 	display: block;
-	line-height: 3.2; /* controls height of header! */
+	line-height: 3.2; /* controls height of navigation! */
 }
-nav ul li a:hover {
-	background-color: #42315b;
+nav ul li a:hover,
+.dropdown-content a:hover {
+	background-color: #F77F00;
+	/*background-color: #FF4B00;*/
 	text-decoration: none;
 	color: #f8fff4;
+}
+.dropdown-btn {
+	cursor: pointer;
+}
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: #314e22;
+  width: 200px;
+	z-index: 1;
+	padding-left: 0;
+}
+.dropdown-content li {
+	display: block;
+	text-align: left;
+	width: 100%
+}
+.dropdown-content li a {
+	padding: 0 15px;
+		padding-left: 0.75em;
+}
+.dropdown-btn:hover .dropdown-content {
+	display: block;
 }
 
 /**********************
 	carousel
 	************************/
-
+#main-content-1.section { padding: 0; }
 #carousel {
-	height: 540px;
+	height: 660px;
 	overflow: hidden;
 }
 #carousel .item img{
@@ -65,20 +108,48 @@ nav ul li a:hover {
 }
 
 /*****************************
-	Main Content 1
+	Main Content
 	******************/
 
-#content-1 {
-	background: #ccc;
+#main-content-2 {
+	background: #f8fff4;
 }
-#content-1 section {
-	border: 2px solid purple;
-	height: 300px;
+#main-content-2 .feature {
 	text-align: center;
 }
+.feature .feature-container {
+	padding: 1px;
+	background: #314e22;
+	color: #f8fff4;
+}
+.feature-container .feature-header {
+	background: #314e22;
+	color: #f8fff4;
+}
+.feature-container .feature-header > h2 {
+	font-size: 31px;
+}
+.feature-container .feature-body {
+	padding: 15px;
+	background: #f8fff4;
+	margin: 5px;
+	height: 100%;
+	color: #333;
+}
+/*
+#content-1 .feature .feature-header {
+	padding: 10px;
+}
+#content-1 .feature .feature-body {
+	background-color: #e4f9d9;
+	color: #314e22;
+}*/
 
-
-
+.test-div {
+	border: 2px ridge #F77F00;
+	height: 300px; width: 150px;
+	background-color:#F77F00;
+}
 
 
 /* Media Break Points */
