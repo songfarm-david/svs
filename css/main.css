@@ -1,0 +1,89 @@
+/**************************
+	HEADER
+	********************/
+header {
+	position: relative;
+	padding: 15px 0;
+	/*border: 2px solid black;*/
+}
+#main_logo {
+	background-image: url(../assets/garage-door-depot-logo.png);
+	height: 100px;
+	width: 382px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contact_number {
+	font-size: 1.75em;
+	position: absolute;
+	bottom: 15px; right: 15px;
+	font-weight: 700;
+	color: black;
+}
+
+/***************************
+	NAVIGATION
+	*******************/
+nav {
+	background-color: #314e22;
+	font-size: 1em;
+}
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+nav ul li a {
+	color: #f8fff4;
+	display: block;
+	line-height: 3.2; /* controls height of header! */
+}
+nav ul li a:hover {
+	background-color: #42315b;
+	text-decoration: none;
+	color: #f8fff4;
+}
+
+/**********************
+	carousel
+	************************/
+
+#carousel {
+	height: 540px;
+	overflow: hidden;
+}
+#carousel .item img{
+	max-height: 100%;
+	width: 100%;
+	position: relative;
+	top: -80%;
+}
+
+/*****************************
+	Main Content 1
+	******************/
+
+#content-1 {
+	background: #ccc;
+}
+#content-1 section {
+	border: 2px solid purple;
+	height: 300px;
+	text-align: center;
+}
+
+
+
+
+
+/* Media Break Points */
+@media (max-width: 899px) {
+	body {
+		background-color: orange;
+	}
+}
