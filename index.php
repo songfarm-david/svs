@@ -9,6 +9,7 @@
 		<link rel="canonical" href="http://www.garagedoordepot.ca/"/>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Asap:400,700|Noto+Sans:400,700|Nunito:300,400,700" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,8 +45,8 @@
 				<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
 					<ul class="dropdown-content">
 						<li><a href="#">Traditional Doors</a></li>
-						<li><a href="#">Modern Garage Doors</a></li>
-						<li><a href="#">Carriage-House Doors</a></li>
+						<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
+						<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
 					</ul>
 				</li>
 				<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
@@ -106,47 +107,66 @@
 
 			<!-- Content -->
 			<section id="main-content-2" class="section container-fluid">
-				<div class="container">
-					<div class="row">
-						<section class="feature col-xs-4">
-							<div class="feature-container">
-								<div class="feature-header">
-									<h2>Residencial Repair &amp; Services</h2>
-								</div>
-								<div class="feature-body">
-									We repair all makes, models, and brands.
-								</div>
+				<div class="overlay"></div>
+				<article class="container">
+					<section class="section-row">
+						<div class="row">
+							<div class="col-lg-6">
+								<h2>Residential Service &amp; Repairs</h2>
+								<p>We offer this and that and the other.</p>
+								<a>
+									<button type="button" name="button" class="btn btn-default">Residencial Products &amp; Services</button>
+								</a>
 							</div>
-						</section>
-						<section class="feature col-xs-4">
-							<div class="feature-container">
-								<div class="feature-header">
-									<h2>Commercial Repair</h2>
-								</div>
-								<div class="feature-body">
-									Around the clock 24/7 rapid response.
-								</div>
+							<div class="col-lg-6">
+								<img src="images/canyon-ridge-garage-doors.jpg" alt=""/>
 							</div>
-						</section>
-						<section class="feature col-xs-4">
-							<div class="feature-container">
-								<div class="feature-header">
-									<h2>Mirage Screens</h2>
-								</div>
-								<div class="feature-body">
-									Retractable Mirage&trade; Screen Doors for your home, cabin, and cottage.
-								</div>
+						</div>
+					</section>
+					<section class="section-row">
+						<div class="row">
+							<div class="col-lg-6">
+								<img src="images/commercial-shutters.jpg" alt="" />
 							</div>
-						</section>
-					</div>
-				</div>
+							<div class="col-lg-6">
+								<div class="text-box"><h2>Commercial Repair</h2>
+								<p>We also do service repair work for commericial doors</p>
+								<a>
+									<button type="button" name="button" class="btn btn-default">Commercial Services</button>
+								</a></div>
+							</div>
+						</div>
+					</section>
+					<section class="section-row">
+						<div class="row">
+							<div class="col-lg-6">
+								<h2>Mirage&trade; Screen Doors</h2>
+								<p>Try one of new Mirage Screen Doors</p>
+								<a>
+									<button type="button" name="button" class="btn btn-default">See Residence Products and Services</button>
+								</a>
+							</div>
+							<div class="col-lg-6">
+								<img src="images/mirage-screen-doors.jpg" alt="" />
+							</div>
+						</div>
+
+
+					</section>
+
+				</article>
 			</section>
 
-			<section class="section">
-				<div class="test-div">
-
-				</div>
+			<section id="main-content-3" class="section">
+				<article class="container">
+					<h2>Our Company</h2>
+					<p>
+						Our company is certified in....
+					</p>
+				</article>
 			</section>
+
+
 
 
 		</main>
