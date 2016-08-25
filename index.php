@@ -111,7 +111,21 @@
 				<article class="container">
 					<section class="section-row">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-5 col-lg-offset-1">
+								<h2>Residential</h2>
+								<p>The Garage Door Depot specializes in residencial installations and repairs.</p>
+								<a>
+									<button type="button" name="button" class="btn btn-default">Products &amp; Services</button>
+								</a>
+							</div>
+							<!-- <div class="col-lg-5">
+								<img src="images/residential-house.jpg" alt=""/>
+							</div> -->
+						</div>
+					</section>
+					<!-- <section class="section-row">
+						<div class="row">
+							<div class="col-lg-6" style>
 								<h2>Residential Service &amp; Repairs</h2>
 								<p>We offer this and that and the other.</p>
 								<a>
@@ -122,48 +136,32 @@
 								<img src="images/canyon-ridge-garage-doors.jpg" alt=""/>
 							</div>
 						</div>
-					</section>
-					<section class="section-row">
-						<div class="row">
-							<div class="col-lg-6">
-								<img src="images/commercial-shutters.jpg" alt="" />
-							</div>
-							<div class="col-lg-6">
-								<div class="text-box"><h2>Commercial Repair</h2>
-								<p>We also do service repair work for commericial doors</p>
-								<a>
-									<button type="button" name="button" class="btn btn-default">Commercial Services</button>
-								</a></div>
-							</div>
-						</div>
-					</section>
-					<section class="section-row">
-						<div class="row">
-							<div class="col-lg-6">
-								<h2>Mirage&trade; Screen Doors</h2>
-								<p>Try one of new Mirage Screen Doors</p>
-								<a>
-									<button type="button" name="button" class="btn btn-default">See Residence Products and Services</button>
-								</a>
-							</div>
-							<div class="col-lg-6">
-								<img src="images/mirage-screen-doors.jpg" alt="" />
-							</div>
-						</div>
-
-
-					</section>
-
+					</section> -->
 				</article>
 			</section>
 
 			<section id="main-content-3" class="section">
-				<article class="container">
+
+				<!-- Play with font type and size -->
+				<!-- <article class="container">
 					<h2>Our Company</h2>
 					<p>
 						Our company is certified in....
 					</p>
-				</article>
+					<div class="row">
+						<div class="col-lg-4 orange-test">
+							<span class="glyphicon glyphicon-time"></span>
+						</div>
+						<div class="col-lg-4 orange-test">
+							<span class="glyphicon glyphicon-calendar"></span>
+						</div>
+						<div class="col-lg-4 orange-test">
+							<span class="glyphicon glyphicon-road"></span>
+						</div>
+					</div>
+				</article> -->
+
+
 			</section>
 
 
