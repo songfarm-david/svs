@@ -4,6 +4,11 @@
 body {
 	background-color: #e4f9d9;
 }
+main {
+	position: relative;
+	z-index: -2;
+	/* above rules allow nav to "sit" on top of the main content -- allowing for shadows hanging over */
+}
 .section {
 	padding: 15px;
 	min-height: 350px;
@@ -22,7 +27,7 @@ body {
 header {
 	position: relative;
 	padding: 15px 0;
-	/*border: 2px solid black;*/
+	/*border: 1px solid black;*/
 }
 #main_logo {
 	background-image: url(../assets/garage-door-depot-logo.png);
@@ -50,53 +55,72 @@ header {
 	*******************/
 nav {
 	background-color: #314e22;
-	font-size: 1em;
+	font-size: 1.15em;
+	font-family: 'Nunito';
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
 }
-nav ul {
+nav ul.container {
 	list-style-type: none;
-	padding: 0 !important;
+	padding: 0;
 	margin-bottom: 0;
 }
 nav ul li {
 	display: inline-block;
 	float: left;
-	width: 200px;
 	text-align: center;
 }
 nav ul li a {
 	color: #f8fff4;
 	display: block;
+	padding: 0 30px;
 	line-height: 3.2; /* controls height of navigation! */
+	transition: color 100ms;
 }
 nav ul li a:hover,
 .dropdown-content a:hover {
-	background-color: #EA9010;
-	/*background-color: #FF4B00;*/
 	text-decoration: none;
-	/*color: #ED7D3A;*/
+	color: #FFA538;
 }
 .dropdown-btn {
 	cursor: pointer;
+	position: relative;
 }
-.dropdown-content {
-	display: none;
+ul.dropdown-content {
   position: absolute;
-  background-color: #314e22;
-  width: 200px;
+	opacity: 0;
+	left: 16px;
+  background-color: rgba(34, 51, 59, 0.9);
 	z-index: 1;
-	padding-left: 0;
+	box-shadow: -1px 2px 5px 1px rgba(0,0,0,.35);
+	font-weight: 100;
+	border-top: 1px solid #143132;
+	font-size: .9em;
+	padding: 0 9px 6px 6px;
+	transition: opacity 250ms ease-out 100ms;
 }
 .dropdown-content li {
 	display: block;
 	text-align: left;
-	width: 100%
+	width: 100%;
+	border-bottom: 2px solid #143132;
+	margin-top:1px;
+	margin-left: 1px;
+}
+.dropdown-content li:last-child {
+	border-bottom-width: 0px;
 }
 .dropdown-content li a {
-	padding: 0 15px;
-		padding-left: 0.75em;
+	padding: 4px 15px 0;
+	/*padding-left: 1.25em;*/
+	line-height: 2.25;
+}
+.dropdown-content li a:hover {
+	/*background-color: rgba(248, 255, 244, 0.75);*/
+	color: #ffbe0f;*
 }
 .dropdown-btn:hover .dropdown-content {
-	display: block;
+	/*display: block;*/
+	opacity: 1;
 }
 
 /**********************
@@ -303,6 +327,19 @@ footer section {
 	width: 100%;
 	/*background-color: #314e22;*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Break Points */
 @media (max-width: 899px) {

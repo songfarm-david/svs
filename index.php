@@ -104,6 +104,7 @@
 					</a>
 				</div>
 			</section>
+
 			<!-- Content -->
 			<section id="main-content-2" class="section container-fluid">
 
