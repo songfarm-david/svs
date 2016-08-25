@@ -1,8 +1,18 @@
+/************
+	Palette:
+
+#314e22 - Pomona Green *GLOBAL*
+
+#22333B - Gunmetal
+#f8fff4 - Mint Cream (light pale green)
+
+
+
 /**********************
 	GLOBAL STYLES
 	****************/
 body {
-	background-color: #e4f9d9;
+	background-color: #DDF9CC;
 }
 main {
 	position: relative;
@@ -231,7 +241,7 @@ main + footer {
 }
 
 /***********************
-	ABOUT COMPANY
+	COMPANY ABOUT
 	**************/
 #main-content-3.section {
 	font-family: 'Noto Sans', Arial, sans-serif;
@@ -239,6 +249,7 @@ main + footer {
 	text-align: center;
 	color: #22333B;
 	background: white;
+	padding: 90px 0 120px;
 }
 #main-content-3 h2 {
 	font-family: inherit;
@@ -264,6 +275,20 @@ main + footer {
 #main-content-3 article p {
 	padding: 15px;
 	line-height: 1.5;
+}
+#main-content-3 h4 {
+	display: inline-block;
+	background-color: #22333B;
+	color: white;
+	padding: 12px 80px 12px;
+	margin: 36px auto 72px;
+	transition: all 1s;
+	line-height: 1.4;
+}
+#main-content-3 h4:hover {
+	background-color: transparent;
+	color: inherit;
+	text-decoration: underline;
 }
 #main-content-3 .glyphicon {
 	font-size: 2.1em;
@@ -386,15 +411,27 @@ main + footer {
 }
 #footer-primary section,
 #footer-primary article {
-	font-size: 0.85em;
+	font-size: 0.8em;
 	line-height: 1.6em;
 }
-#footer-primary .special h4 {
+#footer-primary section a,
+#footer-primary article a {
+	color: #FFB55B;
+}
+#footer-primary h4 {
+	display: inline-block;
+	margin-bottom: 14px;
+	padding: 12px 0 0;
+}
+#footer-primary a {
+	color: #f8fff4;
+}
+
+#footer-primary .special {
 	background-color: #f8fff4;
 	color: #22333B;
 	padding: 6px 18px 6px 6px;
-	display: inline;
-	margin-bottom: 16px;
+
 }
 
 

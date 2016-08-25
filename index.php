@@ -151,7 +151,6 @@
 				<h2>
 					Our Values
 				</h2>
-				<!-- Play with font type and size -->
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4">
@@ -181,6 +180,14 @@
 								</p>
 							</article>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<a href="#"><h4>
+							<!-- *** CTA *** -->
+							Company Info
+						</h4></a>
 					</div>
 				</div>
 			</section>
@@ -259,18 +266,67 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4">
-						<article class="special">
-							<h4>Franchise Opportunities</h4>
+						<article>
+							<!-- *** CTA *** -->
+							<a href=""><h4 class="special">
+								Franchise Opportunities
+							</h4></a>
 							<p>
-								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly beans carrot cake caramels brownie.
+								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly <a href="#">beans carrot</a> cake caramels brownie.
 							</p>
 						</article>
-					</div>
-					<div class="col-lg-3">
 
+						<article class="" style="height:300px; border: 1px solid white;">
+							<h4>Accreditations</h4>
+							<hr>
+								<div class="row">
+									<div class="col-lg-3">
+										<img src="images/BBB-Accreditation-Logo.jpg" alt="" width="100%"/>
+									</div>
+									<div class="col-lg-3">
+										<img src="images/cfib-logo.jpg" alt="" width="100%"/>
+									</div>
+								</div>
+								<!-- <div class="col-lg-2 col-lg-offset-2">
+									<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-2">
+									<img src="images/cfib-logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-2">
+									<img src="images/ida-logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-2">
+									<img src="images/ADD.jpg" alt="" />
+								</div> -->
+
+						</article>
 					</div>
-					<div class="col-lg-3">
+					<!-- <div class="col-lg-1">
+
+					</div> -->
+					<div class="col-lg-4 col-lg-offset-4">
 						<h4>Hours &amp; Contact Info</h4>
+							<address class="">
+								<p>
+									<a href="tel:250-885-5455">(250)-885-5455</a>
+								</p>
+								<p>
+									123 W Fake St.
+								</p>
+								<p>
+									Victoria, British Columbia
+								</p>
+								<p>
+									V2Z 1H0
+								</p>
+								<hr>
+								<p>
+									Available through the week 9am-5pm.
+									<br>
+									Weekend service available.
+								</p>
+							</address>
 					</div>
 				</div>
 			</div>
