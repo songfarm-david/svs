@@ -191,28 +191,20 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
-                <div class="quote"><i class="glyphicon"></i></div>
-								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="10000">
+								<div class="carousel" id="fade-quote-carousel" data-ride="" data-interval="10000">
 								  <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
 										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
 				    				<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+										<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
 								  </ol>
 								  <!-- Carousel items -->
 								  <div class="carousel-inner">
-								    <!-- <div class="item">
-								    	<blockquote>
-								    		<p>Hello GDD, just a quick note to let you know that we are very happy with the garage door we bought, it looks very nice. Also, the installers were excellent and they did all this heavy work with a smile…what a team.</p>
-												<footer>
-													<cite>Guy G.</cite>
-													<p>
-														Lawrencetown, NS
-													</p>
-												</footer>
-								    	</blockquote>
-								    </div> -->
-                    <div class="item active">
+
+										<div class="item active">
 			    			    	<blockquote>
+												<span class="fa fa-quote-left" aria-hidden="true"></span>
+
 							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them. Highly recommend them!</p>
 											<footer>
 												<cite>Stuart M</cite>
@@ -222,21 +214,10 @@
 											</footer>
 								    	</blockquote>
 								    </div>
+
 										<div class="item">
 											<blockquote cite="http://">
-												<p>
-													We are very satisfied with our replacement garage door experience; right from the helpful sales cycle, to on time delivery and the great installer. Thanks Garage Door Depot Halifax!
-												</p>
-												<footer>
-													<cite>Dave S.</cite>
-													<p>
-														Hammond Plains, NS
-													</p>
-												</footer>
-											</blockquote>
-										</div>
-										<div class="item">
-											<blockquote cite="http://">
+												<span class="fa fa-quote-left" aria-hidden="true"></span>
 												<p>
 													Ross from The Garage Door Depot is one the best technicians I’ve ever dealt with. We’re a property manager and this is very important to our success with the buildings we manage.
 												</p>
@@ -248,8 +229,10 @@
 												</footer>
 											</blockquote>
 										</div>
+
 										<div class="item">
 											<blockquote cite="http://">
+												<span class="fa fa-quote-left" aria-hidden="true"></span>
 												<p>
 													They did an excellent job at a very reasonable price. They were in and out in a day, and they cleaned up/took away all the old door/tracks etc. Very friendly and professional.
 												</p>
@@ -261,6 +244,7 @@
 												</footer>
 											</blockquote>
 										</div>
+
 								  </div>
 								</div>
 							</div>
@@ -269,44 +253,53 @@
 				</section>
 			</section>
 
-			<aside id="accreditation" class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 col-lg-offset-2">
-						<h3><strong>The Garage Door Depot</strong> is accredited by:</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-2 col-lg-offset-2">
-						<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
-					</div>
-					<div class="col-lg-2">
-						<img src="images/cfib-logo.jpg" alt="" />
-					</div>
-					<div class="col-lg-2">
-						<img src="images/ida-logo.jpg" alt="" />
-					</div>
-					<div class="col-lg-2">
-						<img src="images/ADD.jpg" alt="" />
-					</div>
-				</div>
-			</aside>
-
 		</main>
 
-		<footer>
+		<footer id="footer-primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
-						<section>
+					<div class="col-lg-4">
+						<article class="special">
+							<h4>Franchise Opportunities</h4>
+							<p>
+								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly beans carrot cake caramels brownie.
+							</p>
+						</article>
+					</div>
+					<div class="col-lg-3">
 
-						</section>
+					</div>
+					<div class="col-lg-3">
+						<h4>Hours &amp; Contact Info</h4>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<!-- <aside id="accreditation" class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-2">
+					<h3><strong>The Garage Door Depot</strong> is accredited by:</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-2">
+					<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
+				</div>
+				<div class="col-lg-2">
+					<img src="images/cfib-logo.jpg" alt="" />
+				</div>
+				<div class="col-lg-2">
+					<img src="images/ida-logo.jpg" alt="" />
+				</div>
+				<div class="col-lg-2">
+					<img src="images/ADD.jpg" alt="" />
+				</div>
+			</div>
+		</aside> -->
 
 		<!--jQuery CDN-->
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/85510088e9.js"></script>
 	</body>
 </html>

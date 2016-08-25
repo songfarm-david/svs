@@ -177,12 +177,12 @@ ul.dropdown-content {
 }
 .section-row [class*="col-"] a {
 	font-size: 1.25em;
-	padding: 10px 18px;
+	padding: 12px 54px;
 	background-color: transparent;
 	border: 2px solid #f8fff4;
 	height: 100%;
 	color: #f8fff4;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-bottom: 30px;
 	transition: background-color 150ms;
 }
@@ -222,7 +222,8 @@ ul.dropdown-content {
 #parallax-content .overlay {
 	background-color: #314e22;
 }
-.section-row:nth-child(2) > .overlay {
+.section-row:nth-child(2) > .overlay,
+main + footer {
 	background-color: #22333B;
 }
 .section-row:nth-child(3) > .overlay {
@@ -305,15 +306,16 @@ ul.dropdown-content {
 /*********************
 	TESTIMONIALS
 	***************/
+#parallax-content .overlay {
+	/*background-color: #314e22;*/
+}
 #parallax-content {
 	background-attachment: fixed;
 	background-image: url(../images/glass-garage-door-house.jpg);
 	background-size: cover;
-	min-height: 700px;
+	min-height: 600px;
 	position: relative;
-}
-#parallax-content .overlay {
-	/*background-color: #314e22;*/
+	padding: 45px;
 }
 #parallax-content #testimonials-carousel {
 	color: white;
@@ -324,38 +326,75 @@ ul.dropdown-content {
 	transform: translate(-50%,-50%);
 	font-style: italic;
 	text-align: center;
+	padding-top: 0;
+	width: 100%;
+}
+#testimonials-carousel .carousel-inner {
+	top: -30px;
+	padding-top: 60px;
 }
 #testimonials-carousel blockquote {
 	border-width: 0;
 	line-height: 1.5;
 	font-size: 1.75em;
 	padding: 0 3em;
-	border: 2px solid white;
 	font-weight: lighter;
+	position: relative;
+}
+#testimonials-carousel blockquote > span.fa {
+	/*font-size: 2.8em;*/
+	position:absolute;
+	left: 1%; top: -10%;
+	color: white;
+	z-index: 1000;
+	font-style: italic;
 }
 #testimonials-carousel blockquote footer {
-	color: orange;
+	width: 35%;
+	position: relative;
+	top: -1em;
+	float: right;
+	color: #FFA538;
+}
+#testimonials-carousel blockquote footer p {
+	font-size: 0.75em;
 }
 #testimonials-carousel .carousel-indicators {
 	position: absolute;
 	bottom: -25%;
 	font-size: 2em;
+	opacity: 0.5;
 }
 #testimonials-carousel .carousel-indicators > li {
-	height: 0.45em;
-	width: 0.45em;
+	height: 0.5em;
+	width: 0.5em;
+	border-width: 2px;
+	background-color: #002600;
+	border-color: #f8fff4;
+}
+#testimonials-carousel .carousel-indicators > li.active {
+	background: #f8fff4;
 }
 
 /********************
 	FOOTER
 	*****************/
-footer {
-	padding: 30px 0;
+#footer-primary {
+	padding: 45px 0;
+	color: #f8fff4;
+	min-height: 500px;
 }
-footer section {
-	height: 300px;
-	width: 100%;
-	/*background-color: #314e22;*/
+#footer-primary section,
+#footer-primary article {
+	font-size: 0.85em;
+	line-height: 1.6em;
+}
+#footer-primary .special h4 {
+	background-color: #f8fff4;
+	color: #22333B;
+	padding: 6px 18px 6px 6px;
+	display: inline;
+	margin-bottom: 16px;
 }
 
 
