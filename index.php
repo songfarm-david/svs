@@ -115,9 +115,7 @@
 								<div class="col-lg-6 col-lg-offset-1">
 									<h2>Residential</h2>
 									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
-									<a>
-										<button type="button" name="button" class="btn btn-default">Products &amp; Services</button>
-									</a>
+									<a href="#">Products &amp; Services</a>
 								</div>
 							</div>
 						</div>
@@ -129,9 +127,7 @@
 								<div class="col-lg-6 col-lg-offset-6">
 									<h2>Commercial</h2>
 									<p>The Garage Door Depot offers a range of commercial garage doors including aluminum sectional and rolling steel sheet.</p>
-									<a>
-										<button type="button" name="button" class="btn btn-default">Commercial Options</button>
-									</a>
+									<a>Commercial Options</a>
 								</div>
 							</div>
 						</div>
@@ -143,9 +139,7 @@
 								<div class="col-lg-11 col-lg-offset-1">
 									<h2>Repairs &amp; Parts</h2>
 									<p>The Garage Door Depot fixes your broken doors and supplies you with parts. <br>We are at your service.</p>
-									<a>
-										<button type="button" name="button" class="btn btn-default">Commercial Options</button>
-									</a>
+									<a>Commercial Options</a>
 								</div>
 							</div>
 						</div>
@@ -162,6 +156,7 @@
 					<div class="row">
 						<div class="col-lg-4">
 							<article class="">
+								<h3>Professional</h3>
 								<span class="glyphicon glyphicon-time"></span>
 								<p>
 									Chocolate cake cake sweet. Candy pudding jelly-o caramels tiramisu tart. Sesame snaps caramels muffin sesame snaps marshmallow marzipan. Dragée cheesecake chocolate tart tiramisu jelly carrot cake.
@@ -170,6 +165,7 @@
 						</div>
 						<div class="col-lg-4">
 							<article class="">
+								<h3>Quality</h3>
 								<span class="glyphicon glyphicon-calendar"></span>
 								<p>
 									Cupcake ipsum dolor sit amet jelly beans tootsie roll. Sesame snaps chocolate bar lemon drops caramels. Chocolate bar liquorice liquorice biscuit danish.
@@ -178,6 +174,7 @@
 						</div>
 						<div class="col-lg-4">
 							<article class="">
+								<h3>Value</h3>
 								<span class="glyphicon glyphicon-road"></span>
 								<p>
 									Chocolate cake cake sweet. Candy pudding jelly-o caramels tiramisu tart. Sesame snaps caramels muffin sesame snaps marshmallow marzipan. Dragée cheesecake chocolate tart tiramisu jelly carrot cake.
@@ -188,15 +185,14 @@
 				</div>
 			</section>
 
-
 			<section id="parallax-content">
 				<div class="overlay"></div>
 				<section id="testimonials-carousel" class="container">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
+							<div class="col-lg-12">
                 <div class="quote"><i class="glyphicon"></i></div>
-								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="10000">
 								  <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
 										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
@@ -204,26 +200,67 @@
 								  </ol>
 								  <!-- Carousel items -->
 								  <div class="carousel-inner">
-								    <div class="active item">
-                      <!-- <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div> -->
+								    <!-- <div class="item">
 								    	<blockquote>
-								    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+								    		<p>Hello GDD, just a quick note to let you know that we are very happy with the garage door we bought, it looks very nice. Also, the installers were excellent and they did all this heavy work with a smile…what a team.</p>
 												<footer>
-													<cite>Bob John</cite>
+													<cite>Guy G.</cite>
+													<p>
+														Lawrencetown, NS
+													</p>
 												</footer>
 								    	</blockquote>
-								    </div>
-                    <div class="item">
-                      <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+								    </div> -->
+                    <div class="item active">
 			    			    	<blockquote>
 							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them. Highly recommend them!</p>
 											<footer>
-												<cite>Stuart M
+												<cite>Stuart M</cite>
+												<p>
 													Port Coquitlam, BC
-												</cite>
+												</p>
 											</footer>
 								    	</blockquote>
 								    </div>
+										<div class="item">
+											<blockquote cite="http://">
+												<p>
+													We are very satisfied with our replacement garage door experience; right from the helpful sales cycle, to on time delivery and the great installer. Thanks Garage Door Depot Halifax!
+												</p>
+												<footer>
+													<cite>Dave S.</cite>
+													<p>
+														Hammond Plains, NS
+													</p>
+												</footer>
+											</blockquote>
+										</div>
+										<div class="item">
+											<blockquote cite="http://">
+												<p>
+													Ross from The Garage Door Depot is one the best technicians I’ve ever dealt with. We’re a property manager and this is very important to our success with the buildings we manage.
+												</p>
+												<footer>
+													<cite>Oleg</cite>
+													<p>
+														Vancouver, BC
+													</p>
+												</footer>
+											</blockquote>
+										</div>
+										<div class="item">
+											<blockquote cite="http://">
+												<p>
+													They did an excellent job at a very reasonable price. They were in and out in a day, and they cleaned up/took away all the old door/tracks etc. Very friendly and professional.
+												</p>
+												<footer>
+													<cite>Daryl</cite>
+													<p>
+														Surrey, BC
+													</p>
+												</footer>
+											</blockquote>
+										</div>
 								  </div>
 								</div>
 							</div>
