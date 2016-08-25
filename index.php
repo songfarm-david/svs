@@ -215,9 +215,11 @@
                     <div class="item">
                       <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
 			    			    	<blockquote>
-							    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi.</p>
+							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them. Highly recommend them!</p>
 											<footer>
-												<cite>Nugget Noogget</cite>
+												<cite>Stuart M
+													Port Coquitlam, BC
+												</cite>
 											</footer>
 								    	</blockquote>
 								    </div>
@@ -229,23 +231,23 @@
 				</section>
 			</section>
 
-			<aside id="accreditation" class="container">
+			<aside id="accreditation" class="container-fluid">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-6 col-lg-offset-2">
 						<h3><strong>The Garage Door Depot</strong> is accredited by:</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3">
+					<div class="col-lg-2 col-lg-offset-2">
 						<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-2">
 						<img src="images/cfib-logo.jpg" alt="" />
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-2">
 						<img src="images/ida-logo.jpg" alt="" />
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-2">
 						<img src="images/ADD.jpg" alt="" />
 					</div>
 				</div>
@@ -253,6 +255,9 @@
 
 		</main>
 
+		<footer>
+			this is the footer
+		</footer>
 
 		<!--jQuery CDN-->
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>

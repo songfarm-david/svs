@@ -231,10 +231,10 @@ nav ul li a:hover,
 	padding: 30px;
 	background-color: white;
 	color: #333;
-	box-shadow: 0 0 5px 1px rgba(0,0,0,0.35);
-	border-radius: 3px;
-	margin: 25px auto 50px;
-	width: 55%;
+	/*box-shadow: 0 0 5px 1px rgba(0,0,0,0.35);
+	border-radius: 3px;*/
+	/*margin: 25px auto 50px;*/
+	/*width: 55%;*/
 }
 #accreditation h3 {
 	margin-top: 0;
