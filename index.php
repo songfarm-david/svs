@@ -104,7 +104,6 @@
 					</a>
 				</div>
 			</section>
-
 			<!-- Content -->
 			<section id="main-content-2" class="section container-fluid">
 
@@ -112,7 +111,7 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 col-lg-offset-2">
+								<div class="col-lg-6 col-lg-offset-1">
 									<h2>Residential</h2>
 									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
 									<a>
@@ -140,7 +139,7 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 col-lg-offset-2">
+								<div class="col-lg-11 col-lg-offset-1">
 									<h2>Repairs &amp; Parts</h2>
 									<p>The Garage Door Depot fixes your broken doors and supplies you with parts. <br>We are at your service.</p>
 									<a>
@@ -153,31 +152,104 @@
 
 			</section>
 
-			<section id="main-content-3" class="section">
-
+			<section id="main-content-3" class="section container-fluid">
+				<h2>
+					Our Values
+				</h2>
 				<!-- Play with font type and size -->
-				<article class="container">
-					<p>
-						Our Values
-					</p>
+				<div class="container">
 					<div class="row">
-						<div class="col-lg-4 orange-test">
-							<span class="glyphicon glyphicon-time"></span>
+						<div class="col-lg-4">
+							<article class="">
+								<span class="glyphicon glyphicon-time"></span>
+								<p>
+									Chocolate cake cake sweet. Candy pudding jelly-o caramels tiramisu tart. Sesame snaps caramels muffin sesame snaps marshmallow marzipan. Dragée cheesecake chocolate tart tiramisu jelly carrot cake.
+								</p>
+							</article>
 						</div>
-						<div class="col-lg-4 orange-test">
-							<span class="glyphicon glyphicon-calendar"></span>
+						<div class="col-lg-4">
+							<article class="">
+								<span class="glyphicon glyphicon-calendar"></span>
+								<p>
+									Cupcake ipsum dolor sit amet jelly beans tootsie roll. Sesame snaps chocolate bar lemon drops caramels. Chocolate bar liquorice liquorice biscuit danish.
+								</p>
+							</article>
 						</div>
-						<div class="col-lg-4 orange-test">
-							<span class="glyphicon glyphicon-road"></span>
+						<div class="col-lg-4">
+							<article class="">
+								<span class="glyphicon glyphicon-road"></span>
+								<p>
+									Chocolate cake cake sweet. Candy pudding jelly-o caramels tiramisu tart. Sesame snaps caramels muffin sesame snaps marshmallow marzipan. Dragée cheesecake chocolate tart tiramisu jelly carrot cake.
+								</p>
+							</article>
 						</div>
 					</div>
-				</article>
-
-
+				</div>
 			</section>
 
 
+			<section id="parallax-content">
+				<div class="overlay"></div>
+				<section id="testimonials-carousel" class="container">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="glyphicon"></i></div>
+								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+								  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+				    				<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+								  </ol>
+								  <!-- Carousel items -->
+								  <div class="carousel-inner">
+								    <div class="active item">
+                      <!-- <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div> -->
+								    	<blockquote>
+								    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+												<footer>
+													<cite>Bob John</cite>
+												</footer>
+								    	</blockquote>
+								    </div>
+                    <div class="item">
+                      <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+			    			    	<blockquote>
+							    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi.</p>
+											<footer>
+												<cite>Nugget Noogget</cite>
+											</footer>
+								    	</blockquote>
+								    </div>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
 
+			<aside id="accreditation" class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3><strong>The Garage Door Depot</strong> is accredited by:</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
+					</div>
+					<div class="col-lg-3">
+						<img src="images/cfib-logo.jpg" alt="" />
+					</div>
+					<div class="col-lg-3">
+						<img src="images/ida-logo.jpg" alt="" />
+					</div>
+					<div class="col-lg-3">
+						<img src="images/ADD.jpg" alt="" />
+					</div>
+				</div>
+			</aside>
 
 		</main>
 
