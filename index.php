@@ -107,37 +107,50 @@
 
 			<!-- Content -->
 			<section id="main-content-2" class="section container-fluid">
-				<div class="overlay"></div>
-				<article class="container">
-					<section class="section-row">
-						<div class="row">
-							<div class="col-lg-5 col-lg-offset-1">
-								<h2>Residential</h2>
-								<p>The Garage Door Depot specializes in residencial installations and repairs.</p>
-								<a>
-									<button type="button" name="button" class="btn btn-default">Products &amp; Services</button>
-								</a>
-							</div>
-							<!-- <div class="col-lg-5">
-								<img src="images/residential-house.jpg" alt=""/>
-							</div> -->
-						</div>
-					</section>
-					<!-- <section class="section-row">
-						<div class="row">
-							<div class="col-lg-6" style>
-								<h2>Residential Service &amp; Repairs</h2>
-								<p>We offer this and that and the other.</p>
-								<a>
-									<button type="button" name="button" class="btn btn-default">Residencial Products &amp; Services</button>
-								</a>
-							</div>
-							<div class="col-lg-6">
-								<img src="images/canyon-ridge-garage-doors.jpg" alt=""/>
+
+					<article class="section-row">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-lg-offset-2">
+									<h2>Residential</h2>
+									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
+									<a>
+										<button type="button" name="button" class="btn btn-default">Products &amp; Services</button>
+									</a>
+								</div>
 							</div>
 						</div>
-					</section> -->
-				</article>
+					</article>
+					<article class="section-row">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-lg-offset-6">
+									<h2>Commercial</h2>
+									<p>The Garage Door Depot offers a range of commercial garage doors including aluminum sectional and rolling steel sheet.</p>
+									<a>
+										<button type="button" name="button" class="btn btn-default">Commercial Options</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="section-row">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-lg-offset-2">
+									<h2>Repairs &amp; Parts</h2>
+									<p>The Garage Door Depot fixes your broken doors and supplies you with parts. <br>We are at your service.</p>
+									<a>
+										<button type="button" name="button" class="btn btn-default">Commercial Options</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</article>
+
 			</section>
 
 			<section id="main-content-3" class="section">
