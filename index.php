@@ -156,10 +156,9 @@
 			<section id="main-content-3" class="section">
 
 				<!-- Play with font type and size -->
-				<!-- <article class="container">
-					<h2>Our Company</h2>
+				<article class="container">
 					<p>
-						Our company is certified in....
+						Our Values
 					</p>
 					<div class="row">
 						<div class="col-lg-4 orange-test">
@@ -172,7 +171,7 @@
 							<span class="glyphicon glyphicon-road"></span>
 						</div>
 					</div>
-				</article> -->
+				</article>
 
 
 			</section>

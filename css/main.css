@@ -146,9 +146,9 @@ nav ul li a:hover,
 }
 .section-row:nth-child(3) {
 	background-image: url(../images/thumbs-up.jpg);
-	background-position: 165 37%;
+	background-position: 83px 37%;
 	background-size: cover;
-	box-shadow: inset 15px 85px 125px -5px rgba(0,0,0,1);
+	box-shadow: inset 135px 52px 125px -5px rgba(0,0,0,1);
 }
 .section-row:nth-child(1) > .overlay {
 	background-color: #314e22;
@@ -172,31 +172,17 @@ nav ul li a:hover,
 .section-row [class*="col-"] button {
 	font-size: 1.25em;
 	padding: 10px 18px;
-	margin-top: 45px;
+	margin: 45px 0 45px;
 	background-color: transparent;
-}
-
-/** rejected **/
-.section-row [class*="col-"] img {
-	max-width: 100%;
-	width: 70%;
-	border: 2px solid white;
-}
-
-#main-content-2 .btn-default {
-	/*background: none;
-	border-color: #EA9010;
-	color: #EA9010;
-	font-weight: bold;
-	border-width: 3px;*/
+	border-width: 2px;
 }
 
 /***********************
 	ABOUT COMPANY
 	**************/
 #main-content-3 {
-	text-align:center;
-	color: #314e22;
+	text-align: center;
+	color: #A35100;
 	font-size: 3em;
 	/*border-top: 3px solid #F79824;*/
 }
