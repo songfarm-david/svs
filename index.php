@@ -256,7 +256,15 @@
 		</main>
 
 		<footer>
-			this is the footer
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<section>
+
+						</section>
+					</div>
+				</div>
+			</div>
 		</footer>
 
 		<!--jQuery CDN-->
