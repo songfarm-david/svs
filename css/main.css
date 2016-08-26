@@ -281,7 +281,7 @@ main + footer {
 	background-color: #22333B;
 	color: white;
 	padding: 12px 80px 12px;
-	margin: 36px auto 72px;
+	margin: 36px 0 72px;
 	transition: all 1s;
 	line-height: 1.4;
 }
@@ -324,7 +324,7 @@ main + footer {
 	padding: 0;
 	text-align: center;
 }
-#accreditation .row + .row > [class*="col-"] img {
+#accreditation .acrdts img {
 	height: 88px;
 	max-width: 100%;
 	max-height: 100%;

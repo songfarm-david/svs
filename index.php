@@ -18,8 +18,6 @@
 	</head>
 	<body class="container-fluid">
 
-	<!-- <div class="clearfix" style="overflow: auto;"> -->
-
 		<header class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -45,8 +43,6 @@
 				</div>
 			</div>
 		</header>
-
-	<!-- </div> -->
 
 		<!-- Main Nav -->
 		<nav>
@@ -191,14 +187,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<a href="#"><h4>
-							<!-- *** CTA *** -->
-							Company Info
-						</h4></a>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<a href="#"><h4>
+								Company Info
+							</h4></a>
+						</div>
 					</div>
 				</div>
+
+
 			</section>
 
 			<section id="parallax-content">
@@ -208,13 +207,11 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="10000">
-								  <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
 										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
 				    				<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
 										<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
 								  </ol>
-								  <!-- Carousel items -->
 								  <div class="carousel-inner">
 
 										<div class="item active">
@@ -269,13 +266,13 @@
 				</section>
 			</section>
 
-			<aside id="accreditation" class="container-fluid">
+			<aside id="accreditation" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row acrdts">
 					<div class="col-lg-6 col-lg-offset-3">
 						<div class="row">
 							<div class="col-lg-3">
@@ -291,9 +288,7 @@
 								<img src="images/ADD.jpg" alt="" />
 							</div>
 						</div>
-
 					</div>
-
 				</div>
 			</aside>
 
@@ -313,7 +308,6 @@
 					</div>
 					<div class="col-lg-4">
 						<article>
-							<!-- *** CTA *** -->
 							<a href=""><h4 class="special">
 								Franchise Opportunities
 							</h4></a>
