@@ -14,21 +14,18 @@
 body {
 	background-color: #f8fff4;
 }
-main {
-	position: relative;
-	/*z-index: -2;*/
-	/* above rules allow nav to "sit" on top of the main content -- allowing for shadows hanging over */
-}
 .section {
 	padding: 15px;
 	min-height: 350px;
 	background-color: #e4f9d9;
 }
-.float-right {
-	float: right;
-}
-.clear-float {
-	clear: both;
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
 }
 
 /**************************
@@ -38,14 +35,14 @@ header {
 	position: relative;
 	padding: 27px 0 18px;
 }
-#main_logo {
+#logo-prime {
 	background-image: url(../assets/garage-door-depot-logo.png);
 	height: 115px;
 	width: 439px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#contact_number {
+#contact-primary {
 	font-size: 1.75em;
 	font-weight: 700;
 	color: black;
@@ -124,29 +121,26 @@ ul.dropdown-content {
 }
 .dropdown-content li a {
 	padding: 4px 15px 0;
-	/*padding-left: 1.25em;*/
 	line-height: 2.25;
 }
 .dropdown-content li a:hover {
-	/*background-color: rgba(248, 255, 244, 0.75);*/
 	color: #ffbe0f;*
 }
 .dropdown-btn:hover .dropdown-content {
-	/*display: block;*/
 	opacity: 1;
 }
 
 /**********************
-	carousel
+	feature-1 - CAROUSEL
 	************************/
-#main-content-1.section {
+#feature-1.section {
 	padding: 0;
 }
-#carousel {
+#feature-1 #carousel {
 	height: 560px;
 	overflow: hidden;
 }
-#carousel .item img{
+#feature-1 #carousel .item img{
 	max-height: 100%;
 	width: 100%;
 	position: relative;
@@ -154,17 +148,9 @@ ul.dropdown-content {
 }
 
 /*****************************
-	Main Content
+	CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
 	******************/
-.overlay {
-	position: absolute;
-	left: 0;
-	top: 0;
-	opacity: 0.9;
-	width: 100%;
-	height: 100%;
-}
-#main-content-2 {
+#content-1 {
 	padding: 0;
 }
 .section-row {
@@ -173,9 +159,6 @@ ul.dropdown-content {
 	background-size: cover;
 	position: relative;
 	z-index: 1;
-}
-.section-row [class*="col-"] {
-	padding: 0;
 }
 .section-row [class*="col-"] h2 {
 	margin-top: 18px;
@@ -219,7 +202,6 @@ ul.dropdown-content {
 	background-size: cover;
 	box-shadow: inset 135px 52px 125px -5px rgba(0,0,0,1);
 }
-
 .section-row:nth-child(1) a:hover {
 	color: #314e22;
 }
@@ -229,12 +211,10 @@ ul.dropdown-content {
 .section-row:nth-child(3) a:hover {
 	color: #A35100;
 }
-.section-row:nth-child(1) > .overlay,
-#parallax-content .overlay {
+.section-row:nth-child(1) > .overlay {
 	background-color: #314e22;
 }
-.section-row:nth-child(2) > .overlay,
-main + footer {
+.section-row:nth-child(2) > .overlay {
 	background-color: #22333B;
 }
 .section-row:nth-child(3) > .overlay {
@@ -242,9 +222,9 @@ main + footer {
 }
 
 /***********************
-	COMPANY ABOUT
+	CONTENT-2 @ ABOUT
 	**************/
-#main-content-3.section {
+#content-3.section {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	box-shadow: inset 2px 1px 24px 0px rgba(0,0,0,1);
 	text-align: center;
@@ -252,14 +232,14 @@ main + footer {
 	background: white;
 	padding: 54px 0 120px;
 }
-#main-content-3 h2 {
+#content-3 h2 {
 	font-size: 4em;
 	font-weight: normal;
 	padding-top: 25px;
 	margin-bottom: 45px;
 	position: relative;
 }
-#main-content-3 h2:after{
+#content-3 h2:after{
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -269,28 +249,40 @@ main + footer {
 	background-color: #22333B;
 	bottom: -18px;
 }
-#main-content-3 article {
+#content-3 article {
 	padding: 15px;
 }
-#main-content-3 article p {
+#content-3 article p {
 	padding: 15px;
 	line-height: 1.5;
 }
-#main-content-3 h4 {
+
+#content-3 a.cta-about {
 	display: inline-block;
+	margin: 24px 0 18px;
+	line-height: 1;
+}
+#content-3 h4 {
+	font-size: 1.75em;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
 	background-color: #22333B;
 	color: white;
-	padding: 12px 80px 12px;
-	margin: 36px 0 72px;
-	transition: all 1s;
-	line-height: 1.4;
+	padding: 12px 72px;
+	box-shadow: 0px 5px 5px 1px rgba(22, 24, 25,.75);
+	border-bottom: 0 solid #22333B;
+	border-radius: 1px;
+	margin: 0;
+	transition: all 750ms;
 }
-#main-content-3 h4:hover {
+#content-3 h4:hover {
 	background-color: transparent;
 	color: inherit;
 	text-decoration: underline;
+	box-shadow: 0px 5px 5px 1px rgba(22, 24, 25,0);
 }
-#main-content-3 .glyphicon {
+#content-3 .glyphicon {
 	font-size: 2.1em;
 	color: white;
 	display: inline-block;
@@ -334,7 +326,7 @@ main + footer {
 	TESTIMONIALS
 	***************/
 #parallax-content .overlay {
-	/*background-color: #314e22;*/
+	background-color: #314e22;
 }
 #parallax-content {
 	background-attachment: fixed;
@@ -406,23 +398,22 @@ main + footer {
 /********************
 	FOOTER
 	*****************/
+main + footer {
+	background-color: #22333B;
+}
 #footer-primary {
 	padding: 45px 0;
 	color: #f8fff4;
 	opacity: .9;
 }
 #footer-primary [class*="col-"] {
-	/*border: 1px solid white;*/
+
 }
 #footer-primary section,
 #footer-primary article {
 	font-size: 0.8em;
 	line-height: 1.6em;
 	padding-right: 30px;
-}
-#footer-primary section a,
-#footer-primary article a {
-	color: #FFB55B;
 }
 #footer-primary h4 {
 	display: inline-block;
@@ -431,12 +422,12 @@ main + footer {
 }
 #footer-primary a {
 	color: #f8fff4;
+	color: #FFB55B;
 }
 #footer-primary .special {
 	background-color: #f8fff4;
 	color: #22333B;
 	padding: 6px 18px 6px 6px;
-
 }
 ul.social-links {
 	list-style-type: none;

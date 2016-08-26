@@ -22,12 +22,12 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<!-- Company Logo -->
-					<div id="main_logo"></div>
+					<div id="logo-prime"></div>
 				</div>
 				<div class="col-lg-6">
 
 					<!-- Contact # -->
-					<section id="contact_number">
+					<section id="contact-primary">
 						<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
 					</section>
 
@@ -73,8 +73,8 @@
 		<!-- Start of Main Content -->
 		<main>
 
-			<!-- Feature Window -->
-			<section id="main-content-1" class="section">
+			<!-- feature-1 Window -->
+			<section id="feature-1" class="section">
 				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -111,13 +111,13 @@
 			</section>
 
 			<!-- Content -->
-			<section id="main-content-2" class="section container-fluid">
+			<section id="content-1" class="section container-fluid">
 
 					<article class="section-row">
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-12">
+								<div class="col-lg-6">
 									<h2>Residential</h2>
 									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
 									<a href="#">Products &amp; Services</a>
@@ -129,7 +129,7 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 col-lg-offset-6">
+								<div class="col-lg-6">
 									<h2>Commercial</h2>
 									<p>The Garage Door Depot offers a range of commercial garage doors including aluminum sectional and rolling steel sheet.</p>
 									<a>Commercial Options</a>
@@ -152,7 +152,7 @@
 
 			</section>
 
-			<section id="main-content-3" class="section container-fluid">
+			<section id="content-3" class="section container-fluid">
 				<h2>
 					Our Values
 				</h2>
@@ -190,9 +190,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-							<a href="#"><h4>
-								Company Info
-							</h4></a>
+							<a href="#" class="cta-about">
+								<h4>Company Info</h4>
+							</a>
 						</div>
 					</div>
 				</div>
