@@ -20,12 +20,8 @@
 
 		<header class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<div id="logo-main">
-						<!-- MAIN LOGO -->
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
+
+				<div class="col-lg-6 col-lg-push-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
 					<div class="row contact-container">
 						<div class="col-lg-12 col-md-12">
 
@@ -40,16 +36,21 @@
 						<div class="col-lg-12 col-md-12">
 
 							<!-- Header Widget 1 -->
-							<div id="search-box" class="input-group col-lg-offset-4 col-lg-8 col-md-offset-3 col-md-9 col-sm-9 col-sm-offset-3">
+							<div id="widget-1-search" class="input-group col-lg-offset-4 col-lg-8 col-md-offset-3 col-md-9 col-sm-9 col-sm-offset-3">
 				        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
 				        <span class="input-group-btn">
-				            <button class="btn btn-default btn-sm" type="button">
-				                <i class="glyphicon glyphicon-search"></i>
-				            </button>
+			            <button class="btn btn-default btn-sm" type="button">
+		                <i class="glyphicon glyphicon-search"></i>
+			            </button>
 				        </span>
 				      </div>
 
 						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-pull-6 col-md-pull-6 col-sm-6 col-sm-pull-6 col-xs-12">
+					<div id="logo-main">
+						<!-- MAIN LOGO -->
 					</div>
 				</div>
 			</div>
@@ -143,7 +144,11 @@
 								<div class="col-lg-6">
 									<h2>Residential</h2>
 									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
-									<a href="#">Products &amp; Services</a>
+									<div class="row">
+										<div class="col-lg-12 col-sm-6 col-xs-12">
+											<a href="#">Products &amp; Services</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -166,8 +171,8 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<h2>Repairs &amp; Parts</h2>
-									<p>The Garage Door Depot fixes your broken doors and supplies you with parts. <br>We are at your service.</p>
-									<a>Commercial Options</a>
+									<p>We are in your neighborhood! <br>Let our technicians take care of all your residencial and commercial garage door repair and parts.</p>
+									<a>Contact Us</a>
 								</div>
 							</div>
 						</div>
@@ -223,7 +228,7 @@
 
 			</section>
 
-			<section id="parallax-content">
+			<!-- <section id="parallax-content">
 				<div class="overlay"></div>
 				<section id="testimonials-carousel" class="container">
 					<div class="container">
@@ -287,9 +292,9 @@
 						</div>
 					</div>
 				</section>
-			</section>
+			</section> -->
 
-			<aside id="accreditation" class="container">
+			<!-- <aside id="accreditation" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
@@ -313,7 +318,7 @@
 						</div>
 					</div>
 				</div>
-			</aside>
+			</aside> -->
 
 		</main>
 

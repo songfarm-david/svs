@@ -19,7 +19,6 @@ body.container-fluid {
 }
 .section {
 	padding: 15px;
-	min-height: 350px;
 	background-color: #e4f9d9;
 }
 .overlay {
@@ -40,9 +39,11 @@ header {
 #logo-main {
 	background-image: url(../assets/garage-door-depot-logo.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	width: 439px;
+	background-size: contain;
+	height: 100%;
 	height: 115px;
+	max-height: 115px;
+	background-position: 0 center;
 }
 #contact-primary {
 	color: #000;
@@ -53,13 +54,13 @@ header {
 	padding-right: 3px;
 }
 .contact-container {
-	margin-bottom: 23px;
+	margin-bottom: 31px;
 }
-#search-box {
+#widget-1-search {
 	bottom: 0;
 
 }
-#search-box input {
+#widget-1-search input {
 	box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.9);
 }
 
@@ -143,7 +144,6 @@ ul.dropdown-content {
 	padding: 0;
 }
 #feature-1 #carousel {
-	height: 560px;
 	overflow: hidden;
 }
 #feature-1 #carousel .item img{
@@ -179,12 +179,13 @@ ul.dropdown-content {
 	font-size: 1.25em;
 	padding: 12px 54px;
 	background-color: transparent;
-	border: 2px solid #f8fff4;
+	border: 2px solid white;
 	height: 100%;
 	color: #f8fff4;
 	border-radius: 3px;
 	margin-bottom: 30px;
 	transition: background-color 150ms;
+	/*color: orange;*/
 }
 .section-row [class*="col-"] a:hover {
 	text-decoration: none;
@@ -275,7 +276,7 @@ ul.dropdown-content {
 	width: 100%;
 	background-color: #22333B;
 	color: white;
-	padding: 12px 72px;
+	padding: 12px 1.5em;
 	box-shadow: 0px 5px 5px 1px rgba(22, 24, 25,.75);
 	border-bottom: 0 solid #22333B;
 	border-radius: 1px;
@@ -489,15 +490,31 @@ ul.social-links li {
 	body {
 		background-color: antiquewhite;
 	}
+	header.container {
+		width: 100%;
+	}
 }
 @media (max-width: 990px) {
 	nav ul {
 		overflow: hidden;
-		}
-		nav ul li {
+	}
+	nav ul li {
 		width: 100%;
 		text-align: left;
+	}
 
+	/******************
+		HAMBURGER MENU
+	***************/
+	.navbar-toggle {
+		padding: 6px 12px;
+		margin: 5px 15px;
+	}
+	.navbar-toggle .icon-bar {
+		width: 36px;
+		height: 4px;
+		border-radius: 1px;
+		margin: 6px 0;
 	}
 }
 
@@ -509,12 +526,12 @@ ul.social-links li {
 
 }
 @media (min-width: 768px) {
-	header {
+	/*header {
 		width: 100%;
-	}
+	}*/
 	header.container {
-		margin: 0;
-		width: 100%;
+		/*margin: 0;*/
+		/*width: 100%;*/
 	}
 	header .contact-container {
 		/*position: absolute;
@@ -525,7 +542,24 @@ ul.social-links li {
 		margin-bottom: 2.4em;
 	}*/
 }
+
+/*******************
+	XS SCREEN
+	****************/
 @media (max-width: 767px) {
+	#contact-primary {
+		font-size: 1.5em;
+		padding: 6px 0 0;
+		white-space: nowrap;
+	}
+	header.container {
+		margin: 0;
+		width: 100%;
+		padding: 0 15px;
+	}
+	.contact-container {
+		margin-bottom: 0;
+	}
 	#footer-primary {
 		padding: 15px 0;
 	}
@@ -536,7 +570,18 @@ ul.social-links li {
 	#accreditation .acrdts img {
 		padding: 15px 0;
 	}
-
+	#widget-1-search {
+		display: none;
+		border: 2px solid green;
+	}
+	#feature-1 {
+		display: none;
+	}
+	.section-row [class*="col-"] a {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
 }
 @media (max-width: 998px) {
 	/*#accreditation .acrdts img:nth-child(1) {
