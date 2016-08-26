@@ -18,40 +18,48 @@
 	</head>
 	<body class="container-fluid">
 
+		<!-- DOCUMENT START -->
+
 		<header class="container">
 			<div class="row">
-
 				<div class="col-lg-6 col-lg-push-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
-					<div class="row contact-container">
-						<div class="col-lg-12 col-md-12">
-
-							<!-- MAIN CTA -->
-							<section id="contact-primary">
-								<a href="#"><span>Call: (250)&nbsp;885-5455</span></a>
-							</section>
-
-						</div>
-					</div>
 					<div class="row">
 						<div class="col-lg-12 col-md-12">
 
+							<!-- MAIN CTA -->
+
+								<article id="contact-primary">
+									<a href="#"><span>Call: (250)&nbsp;885-5455</span></a>
+								</article>
+
+						</div>
+					</div>
+					<div class="row widget-1-container">
+						<div class="col-lg-12 col-md-12">
+
 							<!-- Header Widget 1 -->
-							<div id="widget-1-search" class="input-group col-lg-offset-4 col-lg-8 col-md-offset-3 col-md-9 col-sm-9 col-sm-offset-3">
-				        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
-				        <span class="input-group-btn">
-			            <button class="btn btn-default btn-sm" type="button">
-		                <i class="glyphicon glyphicon-search"></i>
-			            </button>
-				        </span>
+							<div id="widget-1" class="widget-container">
+
+								<div class="input-group">
+									<input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
+					        <span class="input-group-btn">
+				            <button class="btn btn-default btn-sm" type="button">
+			                <i class="glyphicon glyphicon-search"></i>
+				            </button>
+					        </span>
+								</div>
+
 				      </div>
 
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-lg-pull-6 col-md-pull-6 col-sm-6 col-sm-pull-6 col-xs-12">
-					<div id="logo-main">
-						<!-- MAIN LOGO -->
+
+					<div id="brand-logo-main" class="logo">
+						<!-- MAIN LOGO IMAGE-->
 					</div>
+
 				</div>
 			</div>
 		</header>
@@ -69,16 +77,18 @@
 				</div>
 				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
 					<ul class="container">
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-1"><a href="#">Residential&nbsp;Doors</a>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-1">
+							<a href="#">Residential&nbsp;Doors</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-1" id="sub-nav-collapse">
 								<ul class="dropdown-content">
-									<li><a href="#">Traditional Doors</a></li>
+									<li><a href="#">Traditional Doors</a></li>``
 									<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
 									<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
 								</ul>
 							</div>
 						</li>
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-2"><a href="#">Commercial&nbsp;Doors</a>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-2">
+							<a href="#">Commercial&nbsp;Doors</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-2">
 								<ul class="dropdown-content">
 									<li><a href="#">Steel Doors</a></li>
@@ -88,7 +98,8 @@
 						</li>
 						<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
 						<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-3"><a href="#">Additional&nbsp;Products</a>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-3">
+							<a href="#">Additional&nbsp;Products</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-3">
 								<ul class="dropdown-content">
 									<li><a href="#">Mirage Screen Doors</a></li>
