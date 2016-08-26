@@ -228,24 +228,22 @@
 
 			</section>
 
-			<!-- <section id="parallax-content">
+			<section id="parallax-content">
 				<div class="overlay"></div>
 				<section id="testimonials-carousel" class="container">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
-								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="10000">
+								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="">
                   <ol class="carousel-indicators">
 										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
 				    				<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
 										<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
 								  </ol>
 								  <div class="carousel-inner">
-
 										<div class="item active">
 			    			    	<blockquote>
 												<span class="fa fa-quote-left" aria-hidden="true"></span>
-
 							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them.<br> Highly recommend them!</p>
 											<footer>
 												<cite>Stuart M</cite>
@@ -255,7 +253,6 @@
 											</footer>
 								    	</blockquote>
 								    </div>
-
 										<div class="item">
 											<blockquote cite="http://">
 												<span class="fa fa-quote-left" aria-hidden="true"></span>
@@ -270,7 +267,6 @@
 												</footer>
 											</blockquote>
 										</div>
-
 										<div class="item">
 											<blockquote cite="http://">
 												<span class="fa fa-quote-left" aria-hidden="true"></span>
@@ -285,14 +281,13 @@
 												</footer>
 											</blockquote>
 										</div>
-
 								  </div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-			</section> -->
+			</section>
 
 			<!-- <aside id="accreditation" class="container">
 				<div class="row">

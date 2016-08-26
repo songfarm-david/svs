@@ -1,5 +1,6 @@
+
 /************
-	Palette:
+Palette:
 
 #314e22 - Pomona Green *GLOBAL*
 
@@ -9,8 +10,8 @@
 
 
 /**********************
-	GLOBAL STYLES
-	****************/
+GLOBAL STYLES
+****************/
 body {
 	background-color: #f8fff4;
 }
@@ -31,8 +32,8 @@ body.container-fluid {
 }
 
 /**************************
-	HEADER
-	********************/
+HEADER
+********************/
 header {
 	padding: 24px 15px 18px;
 }
@@ -65,8 +66,8 @@ header {
 }
 
 /***************************
-	NAVIGATION
-	*******************/
+NAVIGATION
+*******************/
 nav {
 	background-color: #314e22;
 	font-size: 1.15em;
@@ -103,10 +104,10 @@ nav ul li a:hover,
 	position: relative;
 }
 ul.dropdown-content {
-  position: absolute;
+	position: absolute;
 	opacity: 0;
 	left: 16px;
-  background-color: rgba(34, 51, 59, 0.9);
+	background-color: rgba(34, 51, 59, 0.9);
 	z-index: 1;
 	box-shadow: -1px 2px 5px 1px rgba(0,0,0,.35);
 	font-weight: 100;
@@ -138,8 +139,8 @@ ul.dropdown-content {
 }
 
 /**********************
-	feature-1 - CAROUSEL
-	************************/
+feature-1 - CAROUSEL
+************************/
 #feature-1.section {
 	padding: 0;
 }
@@ -154,8 +155,8 @@ ul.dropdown-content {
 }
 
 /*****************************
-	CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
-	******************/
+CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
+******************/
 #content-1 {
 	padding: 0;
 }
@@ -229,8 +230,8 @@ ul.dropdown-content {
 }
 
 /***********************
-	CONTENT-2 @ ABOUT
-	**************/
+CONTENT-2 @ ABOUT
+**************/
 #content-3.section {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	box-shadow: inset 2px 1px 24px 0px rgba(0,0,0,1);
@@ -299,8 +300,8 @@ ul.dropdown-content {
 }
 
 /************************
-	ACCREDITATIONS
-	****************/
+ACCREDITATIONS
+****************/
 #accreditation {
 	font-family: inherit;
 	padding: 36px 0 72px;
@@ -330,8 +331,8 @@ ul.dropdown-content {
 }
 
 /*********************
-	TESTIMONIALS
-	***************/
+TESTIMONIALS
+***************/
 #parallax-content .overlay {
 	background-color: #314e22;
 }
@@ -339,20 +340,20 @@ ul.dropdown-content {
 	background-attachment: fixed;
 	background-image: url(../images/glass-garage-door-house.jpg);
 	background-size: cover;
-	min-height: 600px;
+	/*min-height: 600px;*/
 	position: relative;
-	padding: 45px;
+	padding-top: 45px;
+	padding-bottom: 90px;
 }
 #parallax-content #testimonials-carousel {
 	color: white;
 	padding: 45px;
-	position: absolute;
+	/*position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);*/
 	font-style: italic;
 	text-align: center;
-	padding-top: 0;
 	width: 100%;
 }
 #testimonials-carousel .carousel-inner {
@@ -375,10 +376,18 @@ ul.dropdown-content {
 	z-index: 1000;
 	font-style: italic;
 }
+#testimonials-carousel blockquote cite {
+	position: relative;
+}
+#testimonials-carousel blockquote cite:before {
+	content: '\2014 \00A0';
+	position: absolute;
+	left: -30px;
+}
 #testimonials-carousel blockquote footer {
 	width: 35%;
 	position: relative;
-	top: -1em;
+	top: 0;
 	float: right;
 	color: #FFA538;
 }
@@ -403,8 +412,8 @@ ul.dropdown-content {
 }
 
 /********************
-	FOOTER
-	*****************/
+FOOTER
+*****************/
 main + footer {
 	background-color: #22333B;
 }
@@ -461,8 +470,8 @@ ul.social-links li {
 }
 
 /***********************
-	MEDIA QUERIES
-	********************/
+MEDIA QUERIES
+********************/
 
 /* Media Break Points */
 @media (max-width: 1200px) {
@@ -478,8 +487,8 @@ ul.social-links li {
 	}
 
 	nav ul.container {
-    width: 100%;
-  }
+		width: 100%;
+	}
 	.navbar-toggle {
 		/*display: block;*/
 		/*background-color: white;*/
@@ -504,7 +513,7 @@ ul.social-links li {
 	}
 
 	/******************
-		HAMBURGER MENU
+	HAMBURGER MENU
 	***************/
 	.navbar-toggle {
 		padding: 6px 12px;
@@ -519,7 +528,7 @@ ul.social-links li {
 }
 
 @media (min-width: 992px) {
-  #contact-primary {
+	#contact-primary {
 		/*text-align: left;*/
 	}
 
@@ -527,7 +536,7 @@ ul.social-links li {
 }
 @media (min-width: 768px) {
 	/*header {
-		width: 100%;
+	width: 100%;
 	}*/
 	header.container {
 		/*margin: 0;*/
@@ -539,13 +548,13 @@ ul.social-links li {
 		right: 15px;*/
 	}
 	/*#accreditation .acrdts img:nth-child(1) {
-		margin-bottom: 2.4em;
+	margin-bottom: 2.4em;
 	}*/
 }
 
 /*******************
-	XS SCREEN
-	****************/
+XS SCREEN
+****************/
 @media (max-width: 767px) {
 	#contact-primary {
 		font-size: 1.5em;
@@ -583,9 +592,34 @@ ul.social-links li {
 		padding-right: 15px;
 		width: 100%;
 	}
+
+	#parallax-content {
+		padding: 45px 0 90px;
+	}
+	#parallax-content #testimonials-carousel {
+		padding: 0 15px;
+	}
+	#testimonials-carousel .carousel-inner {
+		padding-top: 30px;
+		top: 0;
+		overflow: visible;
+	}
+
+	#testimonials-carousel blockquote {
+		padding: 0;
+		font-size: 1.5em;
+		line-height: 1.4;
+	}
+	#testimonials-carousel blockquote footer {
+		width: 100%;
+		float: none;
+	}
+	#testimonials-carousel .carousel-indicators {
+		bottom: -3em;
+	}
 }
 @media (max-width: 998px) {
 	/*#accreditation .acrdts img:nth-child(1) {
-		margin-bottom: 2.4em;
+	margin-bottom: 2.4em;
 	}*/
 }
