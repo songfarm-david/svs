@@ -19,22 +19,26 @@
 	<body class="container-fluid">
 
 		<header class="container">
-			<div class="row" style="border: 2px solid green;">
+			<div class="row">
 				<div class="col-lg-6 col-md-6">
-					<!-- Company Logo -->
-					<div id="logo-prime"></div>
+					<div id="logo-main">
+						<!-- MAIN LOGO -->
+					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="row contact-container">
-						<div class="col-lg-12 col-md-12" style="border:3px solid red;">
-							<!-- Contact # -->
+						<div class="col-lg-12 col-md-12">
+
+							<!-- MAIN CTA -->
 							<section id="contact-primary">
 								<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
 							</section>
+
 						</div>
 					</div>
-					<div class="row" style="border: 2px solid green; height: 100%">
+					<div class="row">
 						<div class="col-lg-12 col-md-12">
+
 							<!-- Header Widget 1 -->
 							<div id="search-box" class="input-group col-md-9 col-lg-offset-3">
 				        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
@@ -44,6 +48,7 @@
 				            </button>
 				        </span>
 				      </div>
+
 						</div>
 					</div>
 				</div>
@@ -52,28 +57,33 @@
 
 		<!-- Main Nav -->
 		<nav>
-			<ul class="container">
-				<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
-					<ul class="dropdown-content">
-						<li><a href="#">Traditional Doors</a></li>
-						<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
-						<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
-					</ul>
-				</li>
-				<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
-					<ul class="dropdown-content">
-						<li><a href="#">Steel Doors</a></li>
-						<li><a href="#">Aluminum Doors</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
-				<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
-				<li class="dropdown-btn"><a href="#">Additional&nbsp;Products</a>
-					<ul class="dropdown-content">
-						<li><a href="#">Mirage Screen Doors</a></li>
-					</ul>
-				</li>
-			</ul>
+			<div class="container">
+
+			</div>
+				<ul class="container nav navbar-nav">
+					<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Traditional Doors</a></li>
+							<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
+							<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
+						</ul>
+					</li>
+					<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Steel Doors</a></li>
+							<li><a href="#">Aluminum Doors</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
+					<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
+					<li class="dropdown-btn"><a href="#">Additional&nbsp;Products</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Mirage Screen Doors</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
 		</nav>
 
 		<!-- Start of Main Content -->
