@@ -449,6 +449,15 @@ ul.social-links li {
 	height: 100%;
 	margin: 0 3px;
 }
+#footer-primary + section.copyright {
+	background-color: #22333B;
+	text-align: center;
+	color: #ccc;
+}
+#footer-primary + section.copyright p {
+	line-height: 60px;
+	margin: 0;
+}
 
 
 
