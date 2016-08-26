@@ -69,25 +69,31 @@
 				</div>
 				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
 					<ul class="container">
-						<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
-							<ul class="dropdown-content">
-								<li><a href="#">Traditional Doors</a></li>
-								<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
-								<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
-							</ul>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-1"><a href="#">Residential&nbsp;Doors</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-1" id="sub-nav-collapse">
+								<ul class="dropdown-content">
+									<li><a href="#">Traditional Doors</a></li>
+									<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
+									<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
+								</ul>
+							</div>
 						</li>
-						<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
-							<ul class="dropdown-content">
-								<li><a href="#">Steel Doors</a></li>
-								<li><a href="#">Aluminum Doors</a></li>
-							</ul>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-2"><a href="#">Commercial&nbsp;Doors</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-2">
+								<ul class="dropdown-content">
+									<li><a href="#">Steel Doors</a></li>
+									<li><a href="#">Aluminum Doors</a></li>
+								</ul>
+							</div>
 						</li>
 						<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
 						<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
-						<li class="dropdown-btn"><a href="#">Additional&nbsp;Products</a>
-							<ul class="dropdown-content">
-								<li><a href="#">Mirage Screen Doors</a></li>
-							</ul>
+						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-3"><a href="#">Additional&nbsp;Products</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-3">
+								<ul class="dropdown-content">
+									<li><a href="#">Mirage Screen Doors</a></li>
+								</ul>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -289,7 +295,7 @@
 				</section>
 			</section>
 
-			<!-- <aside id="accreditation" class="container">
+			<aside id="accreditation" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
@@ -313,7 +319,7 @@
 						</div>
 					</div>
 				</div>
-			</aside> -->
+			</aside>
 
 		</main>
 
@@ -344,7 +350,7 @@
 					</div>
 					<div class="col-lg-4">
 						<article>
-							<a href="">
+							<a href="#">
 								<h4>Franchise Opportunities</h4>
 							</a>
 							<p>
