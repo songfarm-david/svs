@@ -19,27 +19,33 @@
 	<body class="container-fluid">
 
 		<header class="container">
-			<div class="row">
-				<div class="col-lg-6">
+			<div class="row" style="border: 2px solid green;">
+				<div class="col-lg-6 col-md-6">
 					<!-- Company Logo -->
 					<div id="logo-prime"></div>
 				</div>
-				<div class="col-lg-6">
-
-					<!-- Contact # -->
-					<section id="contact-primary">
-						<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
-					</section>
-
-					<!-- Header Widget 1 -->
-					<div id="search-box" class="input-group col-md-9 col-lg-offset-3">
-		        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
-		        <span class="input-group-btn">
-		            <button class="btn btn-default btn-sm" type="button">
-		                <i class="glyphicon glyphicon-search"></i>
-		            </button>
-		        </span>
-		      </div>
+				<div class="col-lg-6 col-md-6">
+					<div class="row contact-container">
+						<div class="col-lg-12 col-md-12" style="border:3px solid red;">
+							<!-- Contact # -->
+							<section id="contact-primary">
+								<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
+							</section>
+						</div>
+					</div>
+					<div class="row" style="border: 2px solid green; height: 100%">
+						<div class="col-lg-12 col-md-12">
+							<!-- Header Widget 1 -->
+							<div id="search-box" class="input-group col-md-9 col-lg-offset-3">
+				        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
+				        <span class="input-group-btn">
+				            <button class="btn btn-default btn-sm" type="button">
+				                <i class="glyphicon glyphicon-search"></i>
+				            </button>
+				        </span>
+				      </div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>

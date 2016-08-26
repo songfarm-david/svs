@@ -32,26 +32,35 @@ body {
 	HEADER
 	********************/
 header {
-	position: relative;
-	padding: 27px 0 18px;
+	/*position: relative;*/
+	padding: 24px 15px 18px;
+	border: 2px solid yellow;
 }
 #logo-prime {
 	background-image: url(../assets/garage-door-depot-logo.png);
-	height: 115px;
-	width: 439px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 439px;
+	height: 115px;
+	border: 2px solid black;
 }
 #contact-primary {
+	color: #000;
+	font-weight: bold;
 	font-size: 1.75em;
-	font-weight: 700;
-	color: black;
-	font-style: italic;
 	text-align: right;
-	padding-right: 5px;
+	font-style: italic;
+	padding-right: 3px;
+	border: 2px solid black;
+}
+.contact-container {
+	margin-bottom: 14px;
 }
 #search-box {
-	top: 33px;
+	/*top: 33px;*/
+	bottom: 0;
+	border: 2px solid black;
+
 }
 #search-box input {
 	box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.9);
@@ -450,12 +459,23 @@ ul.social-links li {
 	margin: 0;
 }
 
-
-
-
+/***********************
+	MEDIA QUERIES
+	********************/
+	
 /* Media Break Points */
 @media (max-width: 899px) {
 	body {
-		background-color: orange;
+		/*background-color: orange;*/
 	}
+}
+@media (min-width: 992px) {
+  #contact-primary {
+		/*text-align: left;*/
+	}
+}
+@media (max-width: 1200px) {
+  nav ul.container {
+    width: 100%;
+  }
 }
