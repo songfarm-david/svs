@@ -18,10 +18,11 @@
 	</head>
 	<body class="container-fluid">
 
+	<!-- <div class="clearfix" style="overflow: auto;"> -->
+
 		<header class="container">
 			<!-- Company Logo -->
 			<div id="main_logo"></div>
-
 			<!-- Header Widget 1 -->
 			<div id="search-box" class="input-group col-md-4 col-md-offset-8">
         <input type="text" class="form-control input-sm" placeholder="Enter Postal Code" />
@@ -31,13 +32,14 @@
             </button>
         </span>
       </div>
-
 			<!-- Contact # -->
 			<div id="contact_number">
 				<span>Call:&nbsp;(250)&nbsp;885-5455</span>
 			</div>
 
 		</header>
+
+	<!-- </div> -->
 
 		<!-- Main Nav -->
 		<nav>
@@ -70,7 +72,7 @@
 
 			<!-- Feature Window -->
 			<section id="main-content-1" class="section">
-				<div id="carousel" class="carousel slide" data-ride="carousel">
+				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#carousel" data-slide-to="0"></li>
@@ -112,7 +114,7 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 col-lg-offset-1">
+								<div class="col-lg-12">
 									<h2>Residential</h2>
 									<p>The Garage Door Depot specializes in residencial installations and repairs. Take comfort in our professionalism and expertise.</p>
 									<a href="#">Products &amp; Services</a>
@@ -136,7 +138,7 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-11 col-lg-offset-1">
+								<div class="col-lg-12">
 									<h2>Repairs &amp; Parts</h2>
 									<p>The Garage Door Depot fixes your broken doors and supplies you with parts. <br>We are at your service.</p>
 									<a>Commercial Options</a>
@@ -176,7 +178,7 @@
 								<h3>Value</h3>
 								<span class="glyphicon glyphicon-road"></span>
 								<p>
-									Chocolate cake cake sweet. Candy pudding jelly-o caramels tiramisu tart. Sesame snaps caramels muffin sesame snaps marshmallow marzipan. Dragée cheesecake chocolate tart tiramisu jelly carrot cake.
+									Chocolate icing soufflé dessert powder. Apple pie biscuit icing pie wafer ice cream marshmallow fruitcake fruitcake. Wafer donut gingerbread lollipop sesame snaps pastry cake cake. Tiramisu carrot cake muffin pudding donut.
 								</p>
 							</article>
 						</div>
@@ -198,7 +200,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
-								<div class="carousel" id="fade-quote-carousel" data-ride="" data-interval="10000">
+								<div class="carousel" id="fade-quote-carousel" data-ride="carousel" data-interval="10000">
 								  <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
 										<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
@@ -212,7 +214,7 @@
 			    			    	<blockquote>
 												<span class="fa fa-quote-left" aria-hidden="true"></span>
 
-							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them. Highly recommend them!</p>
+							    		<p>Bought a garage door. Staff was super helpful and friendly. Made it out with a garage door that I was happy with and it was easy and a pleasure to do business with them.<br> Highly recommend them!</p>
 											<footer>
 												<cite>Stuart M</cite>
 												<p>
@@ -260,11 +262,48 @@
 				</section>
 			</section>
 
+			<aside id="accreditation" class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<div class="row">
+							<div class="col-lg-3">
+								<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
+							</div>
+							<div class="col-lg-3">
+								<img src="images/cfib-logo.jpg" alt="" />
+							</div>
+							<div class="col-lg-3">
+								<img src="images/ida-logo.jpg" alt="" />
+							</div>
+							<div class="col-lg-3">
+								<img src="images/ADD.jpg" alt="" />
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</aside>
+
 		</main>
 
 		<footer id="footer-primary">
 			<div class="container">
 				<div class="row">
+					<div class="col-lg-3 col-lg-offset-1">
+						<h4>Connect with Us!</h4>
+						<ul class="social-links">
+							<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
+							<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+							<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
+							<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+						</ul>
+					</div>
 					<div class="col-lg-4">
 						<article>
 							<!-- *** CTA *** -->
@@ -275,37 +314,8 @@
 								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly <a href="#">beans carrot</a> cake caramels brownie.
 							</p>
 						</article>
-
-						<article class="" style="height:300px; border: 1px solid white;">
-							<h4>Accreditations</h4>
-							<hr>
-								<div class="row">
-									<div class="col-lg-3">
-										<img src="images/BBB-Accreditation-Logo.jpg" alt="" width="100%"/>
-									</div>
-									<div class="col-lg-3">
-										<img src="images/cfib-logo.jpg" alt="" width="100%"/>
-									</div>
-								</div>
-								<!-- <div class="col-lg-2 col-lg-offset-2">
-									<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
-								</div>
-								<div class="col-lg-2">
-									<img src="images/cfib-logo.jpg" alt="" />
-								</div>
-								<div class="col-lg-2">
-									<img src="images/ida-logo.jpg" alt="" />
-								</div>
-								<div class="col-lg-2">
-									<img src="images/ADD.jpg" alt="" />
-								</div> -->
-
-						</article>
 					</div>
-					<!-- <div class="col-lg-1">
-
-					</div> -->
-					<div class="col-lg-4 col-lg-offset-4">
+					<div class="col-lg-4">
 						<h4>Hours &amp; Contact Info</h4>
 							<address class="">
 								<p>
@@ -331,27 +341,12 @@
 				</div>
 			</div>
 		</footer>
-		<!-- <aside id="accreditation" class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-2">
-					<h3><strong>The Garage Door Depot</strong> is accredited by:</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-2">
-					<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
-				</div>
-				<div class="col-lg-2">
-					<img src="images/cfib-logo.jpg" alt="" />
-				</div>
-				<div class="col-lg-2">
-					<img src="images/ida-logo.jpg" alt="" />
-				</div>
-				<div class="col-lg-2">
-					<img src="images/ADD.jpg" alt="" />
-				</div>
-			</div>
-		</aside> -->
+		<section class="container-fluid copyright">
+			<p>
+				<small>&copy; Garage Door Depot Victoria - 2016</small>
+			</p>
+		</section>
+
 
 		<!--jQuery CDN-->
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>

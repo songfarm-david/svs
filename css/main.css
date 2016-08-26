@@ -12,7 +12,7 @@
 	GLOBAL STYLES
 	****************/
 body {
-	background-color: #DDF9CC;
+	background-color: #f8fff4;
 }
 main {
 	position: relative;
@@ -36,29 +36,34 @@ main {
 	********************/
 header {
 	position: relative;
-	padding: 15px 0;
-	/*border: 1px solid black;*/
+	padding: 18px 0;
+	border: 2px solid black;
 }
 #main_logo {
 	background-image: url(../assets/garage-door-depot-logo.png);
-	height: 100px;
-	width: 382px;
+	height: 115px;
+	width: 439px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border: 1px solid black;
 }
 #contact_number {
 	font-size: 1.75em;
-	position: absolute;
-	top: 15px; right: 15px;
 	font-weight: 700;
 	color: black;
 	font-style: italic;
+	border: 1px solid black;
 }
 #search-box {
-	position: absolute;
-	right: 15px; bottom: 15px;
+	/*position: absolute;
+	right: 15px; bottom: 23px;*/
+	float: right;
+	border: 1px solid black;
 }
+#search-box input {
+	box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.9);
 
+}
 
 /***************************
 	NAVIGATION
@@ -87,6 +92,7 @@ nav ul li a {
 	padding: 0 30px;
 	line-height: 3.2; /* controls height of navigation! */
 	transition: color 100ms;
+	font-weight: lighter;
 }
 nav ul li a:hover,
 .dropdown-content a:hover {
@@ -142,7 +148,7 @@ ul.dropdown-content {
 	padding: 0;
 }
 #carousel {
-	height: 660px;
+	height: 560px;
 	overflow: hidden;
 }
 #carousel .item img{
@@ -249,10 +255,9 @@ main + footer {
 	text-align: center;
 	color: #22333B;
 	background: white;
-	padding: 90px 0 120px;
+	padding: 54px 0 120px;
 }
 #main-content-3 h2 {
-	font-family: inherit;
 	font-size: 4em;
 	font-weight: normal;
 	padding-top: 25px;
@@ -304,26 +309,28 @@ main + footer {
 	****************/
 #accreditation {
 	font-family: inherit;
-	padding: 30px;
+	padding: 36px 0 72px;
 	background-color: white;
 	color: #333;
-	/*box-shadow: 0 0 5px 1px rgba(0,0,0,0.35);
-	border-radius: 3px;*/
-	/*margin: 25px auto 50px;*/
-	/*width: 55%;*/
+	text-align: center;
+}
+.hero-title {
+	color: #314e22;
+	font-weight: bold;
 }
 #accreditation h3 {
+	margin: 30px;
 	margin-top: 0;
-	margin-bottom: 32px;
+	padding: 15px;
 	font-size: 1.5em;
 	font-weight: normal;
 }
 #accreditation .row + .row > [class*="col-"] {
-	height: 90px;
 	padding: 0;
 	text-align: center;
 }
 #accreditation .row + .row > [class*="col-"] img {
+	height: 88px;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -377,7 +384,7 @@ main + footer {
 #testimonials-carousel blockquote footer {
 	width: 35%;
 	position: relative;
-	top: -1em;
+	top: 0em;
 	float: right;
 	color: #FFA538;
 }
@@ -405,14 +412,18 @@ main + footer {
 	FOOTER
 	*****************/
 #footer-primary {
-	padding: 45px 0;
+	padding: 45px 0 30px;
 	color: #f8fff4;
-	min-height: 500px;
+	opacity: .9;
+}
+#footer-primary [class*="col-"] {
+	/*border: 1px solid white;*/
 }
 #footer-primary section,
 #footer-primary article {
 	font-size: 0.8em;
 	line-height: 1.6em;
+	padding-right: 30px;
 }
 #footer-primary section a,
 #footer-primary article a {
@@ -421,28 +432,39 @@ main + footer {
 #footer-primary h4 {
 	display: inline-block;
 	margin-bottom: 14px;
-	padding: 12px 0 0;
+	padding: 9px 18px;
 }
 #footer-primary a {
 	color: #f8fff4;
 }
-
 #footer-primary .special {
 	background-color: #f8fff4;
 	color: #22333B;
-	padding: 6px 18px 6px 6px;
-
+	padding: 9px 18px 9px 6px;
+	border-radius: 1px;
 }
-
-
-
-
-
-
-
-
-
-
+#footer-primary + section.copyright{
+	height: 60px;
+	background-color: #22333B;
+	color: #ccc;
+	text-align: center;
+	line-height: 60px;
+	margin-bottom:0;
+}
+section.copyright p {
+	margin: 0;
+}
+ul.social-links {
+	list-style-type: none;
+	padding: 0;
+}
+ul.social-links li {
+	display: inline-block;
+	font-size: 3.4em;
+	line-height: 1;
+	height: 100%;
+	margin: 0 3px;
+}
 
 
 
