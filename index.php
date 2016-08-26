@@ -169,10 +169,10 @@
 						<div class="overlay"></div>
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-12">
+								<div class="col-lg-6">
 									<h2>Repairs &amp; Parts</h2>
-									<p>We are in your neighborhood! <br>Let our technicians take care of all your residencial and commercial garage door repair and parts.</p>
-									<a>Contact Us</a>
+									<p>We are in your local Victoria neighborhood. Let our technicians take care of all your residencial and commercial garage door repair and parts.</p>
+									<a>Commercial Options</a>
 								</div>
 							</div>
 						</div>

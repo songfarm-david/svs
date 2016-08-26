@@ -179,13 +179,13 @@ ul.dropdown-content {
 	font-size: 1.25em;
 	padding: 12px 54px;
 	background-color: transparent;
-	border: 2px solid white;
+	border: 2px solid #f8fff4;
 	height: 100%;
 	color: #f8fff4;
 	border-radius: 3px;
 	margin-bottom: 30px;
 	transition: background-color 150ms;
-	/*color: orange;*/
+	display: inline-block;
 }
 .section-row [class*="col-"] a:hover {
 	text-decoration: none;
@@ -195,12 +195,12 @@ ul.dropdown-content {
 }
 .section-row:nth-child(1) {
 	background-image: url(../images/multi-color-garage-doors.jpg);
-	background-position: center 45%;
+	background-position: center 79%;
 	box-shadow: inset -150px 85px 125px -5px rgba(0,0,0,1);
 }
 .section-row:nth-child(2) {
 	background-image: url(../images/39-commercial-door-repeat.jpg);
-	background-position: center 55%;
+	background-position: center 63%;
 	box-shadow: inset 205px 40px 125px -5px rgba(0,0,0,1);
 }
 .section-row:nth-child(3) {
@@ -578,9 +578,10 @@ ul.social-links li {
 		display: none;
 	}
 	.section-row [class*="col-"] a {
-		width: 100%;
-		display: block;
 		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
 	}
 }
 @media (max-width: 998px) {
