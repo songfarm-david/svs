@@ -20,18 +20,18 @@
 
 		<header class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<div id="logo-main">
 						<!-- MAIN LOGO -->
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-6">
 					<div class="row contact-container">
 						<div class="col-lg-12 col-md-12">
 
 							<!-- MAIN CTA -->
 							<section id="contact-primary">
-								<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
+								<a href="#"><span>Call: (250)&nbsp;885-5455</span></a>
 							</section>
 
 						</div>
@@ -40,7 +40,7 @@
 						<div class="col-lg-12 col-md-12">
 
 							<!-- Header Widget 1 -->
-							<div id="search-box" class="input-group col-md-9 col-lg-offset-3">
+							<div id="search-box" class="input-group col-lg-offset-4 col-lg-8 col-md-offset-3 col-md-9 col-sm-9 col-sm-offset-3">
 				        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
 				        <span class="input-group-btn">
 				            <button class="btn btn-default btn-sm" type="button">
@@ -57,33 +57,40 @@
 
 		<!-- Main Nav -->
 		<nav>
-			<div class="container">
-
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
+					<ul class="container">
+						<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
+							<ul class="dropdown-content">
+								<li><a href="#">Traditional Doors</a></li>
+								<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
+								<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
+							<ul class="dropdown-content">
+								<li><a href="#">Steel Doors</a></li>
+								<li><a href="#">Aluminum Doors</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
+						<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
+						<li class="dropdown-btn"><a href="#">Additional&nbsp;Products</a>
+							<ul class="dropdown-content">
+								<li><a href="#">Mirage Screen Doors</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
-				<ul class="container nav navbar-nav">
-					<li class="dropdown-btn"><a href="#">Residential&nbsp;Doors</a>
-						<ul class="dropdown-content">
-							<li><a href="#">Traditional Doors</a></li>
-							<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
-							<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
-						</ul>
-					</li>
-					<li class="dropdown-btn"><a href="#">Commercial&nbsp;Doors</a>
-						<ul class="dropdown-content">
-							<li><a href="#">Steel Doors</a></li>
-							<li><a href="#">Aluminum Doors</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
-					<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
-					<li class="dropdown-btn"><a href="#">Additional&nbsp;Products</a>
-						<ul class="dropdown-content">
-							<li><a href="#">Mirage Screen Doors</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-
 		</nav>
 
 		<!-- Start of Main Content -->
@@ -289,18 +296,18 @@
 					</div>
 				</div>
 				<div class="row acrdts">
-					<div class="col-lg-6 col-lg-offset-3">
+					<div class="col-lg-12">
 						<div class="row">
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
 								<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
 								<img src="images/cfib-logo.jpg" alt="" />
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-lg-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
 								<img src="images/ida-logo.jpg" alt="" />
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
 								<img src="images/ADD.jpg" alt="" />
 							</div>
 						</div>
@@ -313,25 +320,6 @@
 		<footer id="footer-primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-lg-offset-1">
-						<h4>Connect with Us!</h4>
-						<ul class="social-links">
-							<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-							<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
-							<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-						</ul>
-					</div>
-					<div class="col-lg-4">
-						<article>
-							<a href=""><h4 class="special">
-								Franchise Opportunities
-							</h4></a>
-							<p>
-								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly <a href="#">beans carrot</a> cake caramels brownie.
-							</p>
-						</article>
-					</div>
 					<div class="col-lg-4">
 						<h4>Hours &amp; Contact Info</h4>
 							<address class="">
@@ -347,13 +335,32 @@
 								<p>
 									V2Z 1H0
 								</p>
-								<hr>
 								<p>
-									Available through the week 9am-5pm.
+									<small>Available through the week 9am-5pm.
 									<br>
-									Weekend service available.
+									Weekend service available.</small>
 								</p>
 							</address>
+					</div>
+					<div class="col-lg-4">
+						<article>
+							<a href="">
+								<h4>Franchise Opportunities</h4>
+							</a>
+							<p>
+								Carrot cake dragée lollipop chocolate cake sugar plum toffee halvah carrot cake jelly. Chocolate bar pie candy canes halvah halvah tart liquorice sweet roll. Marzipan jelly-o jelly-o. Pie jelly <a href="#">beans carrot</a> cake caramels brownie.
+							</p>
+							<a href="#" class="cta-franchise">Contact: Mr. John Smith</a>
+						</article>
+					</div>
+					<div class="col-lg-4">
+						<h4>Connect with Us!</h4>
+						<ul class="social-links">
+							<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
+							<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+							<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
+							<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
