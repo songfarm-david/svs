@@ -36,8 +36,7 @@ main {
 	********************/
 header {
 	position: relative;
-	padding: 18px 0;
-	border: 2px solid black;
+	padding: 27px 0 18px;
 }
 #main_logo {
 	background-image: url(../assets/garage-door-depot-logo.png);
@@ -45,24 +44,20 @@ header {
 	width: 439px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 1px solid black;
 }
 #contact_number {
 	font-size: 1.75em;
 	font-weight: 700;
 	color: black;
 	font-style: italic;
-	border: 1px solid black;
+	text-align: right;
+	padding-right: 5px;
 }
 #search-box {
-	/*position: absolute;
-	right: 15px; bottom: 23px;*/
-	float: right;
-	border: 1px solid black;
+	top: 33px;
 }
 #search-box input {
 	box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.9);
-
 }
 
 /***************************
@@ -384,7 +379,7 @@ main + footer {
 #testimonials-carousel blockquote footer {
 	width: 35%;
 	position: relative;
-	top: 0em;
+	top: -1em;
 	float: right;
 	color: #FFA538;
 }
@@ -412,7 +407,7 @@ main + footer {
 	FOOTER
 	*****************/
 #footer-primary {
-	padding: 45px 0 30px;
+	padding: 45px 0;
 	color: #f8fff4;
 	opacity: .9;
 }
@@ -432,7 +427,7 @@ main + footer {
 #footer-primary h4 {
 	display: inline-block;
 	margin-bottom: 14px;
-	padding: 9px 18px;
+	padding: 6px;
 }
 #footer-primary a {
 	color: #f8fff4;
@@ -440,19 +435,8 @@ main + footer {
 #footer-primary .special {
 	background-color: #f8fff4;
 	color: #22333B;
-	padding: 9px 18px 9px 6px;
-	border-radius: 1px;
-}
-#footer-primary + section.copyright{
-	height: 60px;
-	background-color: #22333B;
-	color: #ccc;
-	text-align: center;
-	line-height: 60px;
-	margin-bottom:0;
-}
-section.copyright p {
-	margin: 0;
+	padding: 6px 18px 6px 6px;
+
 }
 ul.social-links {
 	list-style-type: none;

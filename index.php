@@ -21,22 +21,29 @@
 	<!-- <div class="clearfix" style="overflow: auto;"> -->
 
 		<header class="container">
-			<!-- Company Logo -->
-			<div id="main_logo"></div>
-			<!-- Header Widget 1 -->
-			<div id="search-box" class="input-group col-md-4 col-md-offset-8">
-        <input type="text" class="form-control input-sm" placeholder="Enter Postal Code" />
-        <span class="input-group-btn">
-            <button class="btn btn-default btn-sm" type="button">
-                <i class="glyphicon glyphicon-search"></i>
-            </button>
-        </span>
-      </div>
-			<!-- Contact # -->
-			<div id="contact_number">
-				<span>Call:&nbsp;(250)&nbsp;885-5455</span>
-			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<!-- Company Logo -->
+					<div id="main_logo"></div>
+				</div>
+				<div class="col-lg-6">
 
+					<!-- Contact # -->
+					<section id="contact_number">
+						<a href="#"><span>Call:&nbsp;(250)&nbsp;885-5455</span></a>
+					</section>
+
+					<!-- Header Widget 1 -->
+					<div id="search-box" class="input-group col-md-9 col-lg-offset-3">
+		        <input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
+		        <span class="input-group-btn">
+		            <button class="btn btn-default btn-sm" type="button">
+		                <i class="glyphicon glyphicon-search"></i>
+		            </button>
+		        </span>
+		      </div>
+				</div>
+			</div>
 		</header>
 
 	<!-- </div> -->
