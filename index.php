@@ -17,7 +17,9 @@
     <![endif]-->
 	</head>
 	<body class="container-fluid">
-
+		<div class="loading-part">
+				<div class="loader-home">Loading...</div>
+			</div>
 		<!-- DOCUMENT START -->
 
 		<header class="container">
@@ -119,8 +121,8 @@
 				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
-						<li data-target="#carousel" data-slide-to="0"></li>
-						<li data-target="#carousel" data-slide-to="1" class="active"></li>
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
 						<li data-target="#carousel" data-slide-to="2"></li>
 						<li data-target="#carousel" data-slide-to="3"></li>
 					</ol>
@@ -128,14 +130,17 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<!-- IMAGES GOES HERE -->
-						<div class="item">
-							<img src="images/multi-color-garage-doors.jpg" alt="Chania">
+						<div class="item active feature-photo feature-photo-1">
+							<!-- <img src="images/feature-1.jpg" alt="" height="500"> -->
 						</div>
-						<div class="item active">
-							<img src="images/wood-garage-door.jpg" alt="Flower">
+						<div class="item feature-photo feature-photo-2">
+							<!-- <img src="images/wood-garage-door.jpg" alt="Flower"> -->
 						</div>
-						<div class="item">
-							<img src="images/resGarageDoors.jpg" alt="Flower">
+						<div class="item feature-photo feature-photo-3">
+							<!-- <img src="images/resGarageDoors.jpg" alt="Flower"> -->
+						</div>
+						<div class="item feature-photo feature-photo-4">
+							<!-- <img src="images/resGarageDoors.jpg" alt="Flower"> -->
 						</div>
 					</div>
 

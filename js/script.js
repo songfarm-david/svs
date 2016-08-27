@@ -41,10 +41,13 @@
 	});
 
 	window.onload = function() {
+		$('.loading-part').fadeOut(250);
 		if (window.innerWidth <= 990) {
-			alert('function called');
 			checkAttr();
 		}
 	}
+
+
+
 
 })();
