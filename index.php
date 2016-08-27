@@ -77,18 +77,18 @@
 				</div>
 				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
 					<ul class="container">
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-1">
-							<a href="#">Residential&nbsp;Doors</a>
+						<li class="dropdown-btn">
+							<a href="#" data-toggle="collapse" data-target=".sub-nav-collapse-1">Residential&nbsp;Doors</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-1" id="sub-nav-collapse">
 								<ul class="dropdown-content">
-									<li><a href="#">Traditional Doors</a></li>``
+									<li><a href="#">Traditional Doors</a></li>
 									<li><a href="#">Modern&nbsp;Garage&nbsp;Doors</a></li>
 									<li><a href="#">Carriage&nbsp;House&nbsp;Doors</a></li>
 								</ul>
 							</div>
 						</li>
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-2">
-							<a href="#">Commercial&nbsp;Doors</a>
+						<li class="dropdown-btn">
+							<a href="#" data-toggle="collapse" data-target=".sub-nav-collapse-2">Commercial&nbsp;Doors</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-2">
 								<ul class="dropdown-content">
 									<li><a href="#">Steel Doors</a></li>
@@ -98,8 +98,8 @@
 						</li>
 						<li><a href="#">Garage&nbsp;Door&nbsp;Openers</a></li>
 						<li><a href="#">Parts&nbsp;&amp;&nbsp;Service</a></li>
-						<li class="dropdown-btn" data-toggle="collapse" data-target=".sub-nav-collapse-3">
-							<a href="#">Additional&nbsp;Products</a>
+						<li class="dropdown-btn">
+							<a href="#" data-toggle="collapse" data-target=".sub-nav-collapse-3">Additional&nbsp;Products</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-3">
 								<ul class="dropdown-content">
 									<li><a href="#">Mirage Screen Doors</a></li>
@@ -393,5 +393,6 @@
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/85510088e9.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

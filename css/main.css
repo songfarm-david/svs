@@ -65,20 +65,46 @@ a:focus {
 		}
 		#widget-1 {
 			position: relative;
-			bottom: 0;
-			border: 2px solid blue;
+			top: 24px;
 		}
-		#widget-1 input {
-			box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.9);
+		#widget-1 .input-group {
+			box-shadow: inset 0px 0px 3px 1px rgba(186, 178, 163, 0.72);
+			border-radius: 4px;
+		}
+		#widget-1 .input-group input {
+			background-color: rgba(255,153,0,0.35);
+			border: 1px solid #C6831D;
+			border: none;
+			background-color: rgba(251, 235, 202, 0.3);
+			background-color: rgba(255, 244, 222, 0.75);
+		}
+		#widget-1 .input-group input:focus {
+			box-shadow: 0px 0 8px #FF7500;
+		}
+		#widget-1 .input-group input + span.input-group-btn {
+			background-color: #314e22;
+			overflow: hidden;
+			padding: 0 3px;
+		}
+		#widget-1 .input-group input + span.input-group-btn button {
+			font-size: 1.1em;
+			border-width: 0px;
+			background-color: #314e22;
+			cursor: default;
+		}
+		#widget-1 .input-group input + span.input-group-btn button.btn-sm {
+			font-size: 19px;
+			color: #F2B910;
 		}
 
 /***************************
 NAVIGATION
 *******************/
 nav {
-	background-color: #314e22 !important;
+	/*font-family: 'Asap';*/
+	background-color: #314e22;
 	font-size: 1em;
-	font-family: 'Asap';
+	font-weight: normal;
 	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
 	position: relative;
 	z-index: 99;
@@ -97,14 +123,13 @@ nav ul li a {
 	color: #f8fff4;
 	display: block;
 	padding: 0 25px;
-	line-height: 3.2; /* controls height of navigation! */
+	line-height: 3.1; /* controls height of navigation! */
 	transition: color 100ms;
 	font-weight: lighter;
 }
-nav ul li a:hover,
-.dropdown-content a:hover {
+nav ul li a:hover {
 	text-decoration: none;
-	color: #FFA538;
+	color: #F2B910;
 }
 .dropdown-btn {
 	cursor: pointer;
@@ -112,35 +137,44 @@ nav ul li a:hover,
 }
 ul.dropdown-content {
 	position: absolute;
+	top: 58px;
 	opacity: 0;
 	left: 16px;
 	background-color: rgba(34, 51, 59, 0.9);
 	z-index: 1;
 	box-shadow: -1px 2px 5px 1px rgba(0,0,0,.35);
 	font-weight: 100;
-	border-top: 1px solid #143132;
+	border-top: 2px solid #143132;
 	font-size: .9em;
-	padding: 0 9px 6px 6px;
+	/*padding: 0 9px 6px 6px;*/
+	padding-left: 0;
+	padding: 0;
 	transition: opacity 250ms ease-out 100ms;
 }
 .dropdown-content li {
 	display: block;
 	text-align: left;
 	width: 100%;
-	border-bottom: 2px solid #143132;
-	margin-top:1px;
-	margin-left: 1px;
-}
-.dropdown-content li:last-child {
-	border-bottom-width: 0px;
+	border-bottom: 1px solid rgba(150, 220, 222, 0.2);
+	border-radius: 1px;
+	margin: 0;
 }
 .dropdown-content li a {
-	padding: 4px 15px 0;
+	padding: 9px 6px;
 	line-height: 2.25;
+	transition: background-color 0.5s;
 }
 .dropdown-content li a:hover {
-	color: #ffbe0f;*
+	background-color: rgba(17, 28, 34, 0.65);
+	color: #f8fff4;
 }
+.dropdown-content li:last-child {
+	border-color: transparent;
+	border-width: 2px;
+}
+/*.dropdown-content li a:hover {
+	color: #ffbe0f;*
+}*/
 .dropdown-btn:hover .dropdown-content {
 	opacity: 1;
 }
@@ -527,27 +561,7 @@ MEDIA QUERIES
 		margin: 6px 0;
 	}
 }
-
-
-
-/*******************
-XS SCREEN
-****************/
-@media (max-width: 767px) {
-	#contact-primary {
-		font-size: 1.5em;
-		padding: 6px 0 0;
-		white-space: nowrap;
-	}
-	header.container {
-		margin: 0;
-		width: 100%;
-		padding: 0 15px;
-	}
-	.row-contact {
-		margin-bottom: 0;
-	}
-
+@media (max-width: 990px) {
 	nav ul li a {
 		line-height: 3.2;
 	}
@@ -593,6 +607,28 @@ XS SCREEN
 	[class*="sub-nav-collapse"] {
 		box-shadow: inset 6px 6px 16px 0px rgba(0,0,0,0.65);
 	}
+}
+
+
+/*******************
+XS SCREEN
+****************/
+@media (max-width: 767px) {
+	#contact-primary {
+		font-size: 1.5em;
+		padding: 6px 0 0;
+		white-space: nowrap;
+	}
+	header.container {
+		margin: 0;
+		width: 100%;
+		padding: 0 15px;
+	}
+	.row-contact {
+		margin-bottom: 0;
+	}
+
+
 
 
 
