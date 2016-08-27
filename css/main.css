@@ -203,19 +203,19 @@ feature-1 - CAROUSEL
 	background-size: cover;
 }
 .item.feature-photo-1 {
-	background: #fff url(../images/feature/feature-1.jpg) no-repeat;
+	background: #fff url(../images/feature/compressed/feature-1-min.jpg) no-repeat;
 	background-position: 0 100%;
 }
 .feature-photo-2 {
-	background: #fff url(../images/feature/feature-2.jpg) no-repeat;
+	background: #fff url(../images/feature/compressed/feature-2-min.jpg) no-repeat;
 	background-position: 0 50%;
 }
 .feature-photo-3 {
-	background: #fff url(../images/feature/feature-3.jpg) no-repeat;
+	background: #fff url(../images/feature/compressed/feature-3-min.jpg) no-repeat;
 	background-position: 0 50%;
 }
 .feature-photo-4 {
-	background: #fff url(../images/feature/feature-4.jpg) no-repeat;
+	background: #fff url(../images/feature/compressed/feature-4-min.jpg) no-repeat;
 	background-position: 25% 50%;
 }
 

@@ -131,16 +131,12 @@
 					<div class="carousel-inner" role="listbox">
 						<!-- IMAGES GOES HERE -->
 						<div class="item active feature-photo feature-photo-1">
-							<!-- <img src="images/feature-1.jpg" alt="" height="500"> -->
 						</div>
 						<div class="item feature-photo feature-photo-2">
-							<!-- <img src="images/wood-garage-door.jpg" alt="Flower"> -->
 						</div>
 						<div class="item feature-photo feature-photo-3">
-							<!-- <img src="images/resGarageDoors.jpg" alt="Flower"> -->
 						</div>
 						<div class="item feature-photo feature-photo-4">
-							<!-- <img src="images/resGarageDoors.jpg" alt="Flower"> -->
 						</div>
 					</div>
 
@@ -321,16 +317,16 @@
 					<div class="col-lg-12">
 						<div class="row">
 							<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
-								<img src="images/BBB-Accreditation-Logo.jpg" alt="" />
+								<img src="images/partners/bbb-accreditation.logo.jpg" alt="" />
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-								<img src="images/cfib-logo.jpg" alt="" />
+								<img src="images/partners/cfib-logo.jpg" alt="" />
 							</div>
 							<div class="col-lg-3 col-md-3 col-md-offset-0 col-lg-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
-								<img src="images/ida-logo.jpg" alt="" />
+								<img src="images/partners/ida-logo.jpg" alt="" />
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-								<img src="images/ADD.jpg" alt="" />
+								<img src="images/partners/add.jpg" alt="" />
 							</div>
 						</div>
 					</div>
