@@ -21,17 +21,16 @@
 				<div class="loader-home">Loading...</div>
 			</div>
 		<!-- DOCUMENT START -->
-
-		<header class="container">
+		<header id="header-main" class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-push-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
 					<div class="row">
-						<div class="col-lg-12 col-md-12">
+						<div class="col-lg-12 col-md-12 padding-off">
 
 							<!-- MAIN CTA -->
 
 								<article id="contact-primary">
-									<a href="#"><span>Call: (250)&nbsp;885-5455</span></a>
+									<a href="#">Call: (250)&nbsp;885-5455</a>
 								</article>
 
 						</div>
@@ -58,9 +57,9 @@
 				</div>
 				<div class="col-lg-6 col-lg-pull-6 col-md-pull-6 col-sm-6 col-sm-pull-6 col-xs-12">
 
-					<div id="brand-logo-main" class="logo">
+					<a href="index.php"><div id="brand-logo-main" class="logo">
 						<!-- MAIN LOGO IMAGE-->
-					</div>
+					</div></a>
 
 				</div>
 			</div>

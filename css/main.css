@@ -1,19 +1,18 @@
 
 /************
 Palette:
-
 #314e22 - Pomona Green *GLOBAL*
-
 #22333B - Gunmetal
 #f8fff4 - Mint Cream (light pale green)
-
-
 
 /**********************
 GLOBAL STYLES
 ****************/
 body {
 	background-color: #f8fff4;
+	min-width: 320px;
+	background-color: #8AAD79;
+	background-color: #daf3cc;
 }
 body.container-fluid {
 	padding: 0;
@@ -35,67 +34,79 @@ a:focus {
 	color: #f8fff4;
 	text-decoration: none;
 }
+.padding-off {}
 
 /**************************
-	HEADER
+	MAIN HEADER
 	********************/
-		header {
-			padding: 24px 15px 18px;
-		}
-		#brand-logo-main {
-			background-image: url(../assets/garage-door-depot-logo.png);
-			background-repeat: no-repeat;
-			background-size: contain;
-			height: 100%;
-			height: 115px;
-			max-height: 115px;
-			background-position: 0 center;
-		}
-		#contact-primary {
-			color: #000;
-			font-weight: bold;
-			font-size: 1.75em;
-			text-align: right;
-			font-style: italic;
-			padding-right: 3px;
-			margin-bottom: 0;
-		}
-		#contact-primary a {
-			color: #000;
-		}
-		#widget-1 {
-			position: relative;
-			top: 24px;
-		}
-		#widget-1 .input-group {
-			box-shadow: inset 0px 0px 3px 1px rgba(186, 178, 163, 0.72);
-			border-radius: 4px;
-		}
-		#widget-1 .input-group input {
-			background-color: rgba(255,153,0,0.35);
-			border: 1px solid #C6831D;
-			border: none;
-			background-color: rgba(251, 235, 202, 0.3);
-			background-color: rgba(255, 244, 222, 0.75);
-		}
-		#widget-1 .input-group input:focus {
-			box-shadow: 0px 0 8px #FF7500;
-		}
-		#widget-1 .input-group input + span.input-group-btn {
-			background-color: #314e22;
-			overflow: hidden;
-			padding: 0 3px;
-		}
-		#widget-1 .input-group input + span.input-group-btn button {
-			font-size: 1.1em;
-			border-width: 0px;
-			background-color: #314e22;
-			cursor: default;
-		}
-		#widget-1 .input-group input + span.input-group-btn button.btn-sm {
-			font-size: 19px;
-			color: #F2B910;
-		}
+#header-main {
+	padding: 24px 15px 18px;
+}
+#brand-logo-main {
+	background-image: url(../assets/garage-door-depot-logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	height: 115px;
+	max-height: 115px;
+	background-position: 0 center;
+}
+#contact-primary {
+	text-align: right;
+	padding-right: 3px;
+	font-size: 2em;
+	margin-bottom: 24px;
+}
+#contact-primary a {
+	color: #fff;
+	display: inline-block;
+	text-shadow: 0px 0 6px #18300D;
+	font-size: 100%;
+	font-weight: bold;
+}
+#widget-1 {
+	position: relative;
+	z-index: auto;
+}
+#widget-1 .input-group {
+	border-radius: 4px;
+	right: -44px;
+}
+#widget-1 .input-group input {
+	border: 1px solid #C6831D;
+	border: none;
+	background-color: #f8fff4;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	box-shadow: 0px 0 3px 1px rgba(0, 0, 0, 0.35);;
+	z-index: inherit;
+}
+#widget-1 .input-group input:focus {
+	box-shadow: 0px 0 8px #FF7700;
+}
+#widget-1 .input-group input + span.input-group-btn {
+	position: relative;
+	left: -44px;
+	top: -1px;
+	background-color: #314e22;
+	padding: 0 3px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	/*z-index: 14;*/
+	/*overflow: hidden;*/
+}
+#widget-1 .input-group input + span.input-group-btn button {
+	font-size: 1.1em;
+	border-width: 0px;
+	background-color: #314e22;
+	cursor: default;
+	z-index: inherit;
+}
+#widget-1 .input-group input + span.input-group-btn button.btn-sm {
+	font-size: 20px;
+	color: #f8fff4;
+	color: #daf3cc;
+}
 
 /***************************
 NAVIGATION
@@ -146,7 +157,6 @@ ul.dropdown-content {
 	font-weight: 100;
 	border-top: 2px solid #143132;
 	font-size: .9em;
-	/*padding: 0 9px 6px 6px;*/
 	padding-left: 0;
 	padding: 0;
 	transition: opacity 250ms ease-out 100ms;
@@ -157,16 +167,16 @@ ul.dropdown-content {
 	width: 100%;
 	border-bottom: 1px solid rgba(150, 220, 222, 0.2);
 	border-radius: 1px;
-	margin: 0;
 }
 .dropdown-content li a {
 	padding: 9px 6px;
+	padding-left: 9px;
 	line-height: 2.25;
 	transition: background-color 0.5s;
 }
 .dropdown-content li a:hover {
-	background-color: rgba(17, 28, 34, 0.65);
-	color: #f8fff4;
+	color: #fff;
+	background-color: #18300D;
 }
 .dropdown-content li:last-child {
 	border-color: transparent;
@@ -538,10 +548,13 @@ ul.social-links li {
 }
 
 /***********************
-MEDIA QUERIES
+	MEDIA QUERIES
 ********************/
 
 @media (max-width: 1200px) {
+	#header-main {
+		width: 100%;
+	}
 	nav {
 		font-size: 1em;
 	}
@@ -558,10 +571,9 @@ MEDIA QUERIES
 	.navbar-toggle .icon-bar {
 		background-color: white;
 	}
-	header.container {
-		width: 100%;
-	}
+
 }
+
 @media (max-width: 990px) {
 	nav ul {
 		overflow: hidden;
@@ -584,8 +596,6 @@ MEDIA QUERIES
 		border-radius: 1px;
 		margin: 6px 0;
 	}
-}
-@media (max-width: 990px) {
 	nav ul li a {
 		line-height: 3.2;
 	}
@@ -633,29 +643,21 @@ MEDIA QUERIES
 	}
 }
 
-
 /*******************
-XS SCREEN
+	XS SCREEN
 ****************/
 @media (max-width: 767px) {
-	#contact-primary {
-		font-size: 1.5em;
-		padding: 6px 0 0;
-		white-space: nowrap;
+	.padding-off {
+		padding: 0;
 	}
-	header.container {
-		margin: 0;
-		width: 100%;
+	#header-main {
 		padding: 0 15px;
 	}
-	.row-contact {
-		margin-bottom: 0;
+	#contact-primary {
+		padding: 6px .9% 0;
+		margin: 0;
+		width: 100%;
 	}
-
-
-
-
-
 
 	#footer-primary {
 		padding: 15px 0;
@@ -707,6 +709,11 @@ XS SCREEN
 	}
 }
 
+@media (max-width: 380px) {
+	#contact-primary {
+		font-size: 1.75em;
+	}
+}
 
 .loading-part {
   position: fixed;
