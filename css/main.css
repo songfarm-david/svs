@@ -411,82 +411,86 @@ ACCREDITATIONS
 TESTIMONIALS
 ***************/
 #parallax-content .overlay {
-	background-color: #314e22;
+	background-color: #FF7700;
 }
 #parallax-content {
-	background-attachment: fixed;
-	background-image: url(../images/glass-garage-door-house.jpg);
-	background-size: cover;
-	/*min-height: 600px;*/
 	position: relative;
-	padding-top: 45px;
-	padding-bottom: 90px;
+	background-image: url(../images/glass-garage-door-house.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 45px 0 90px;
 }
 #parallax-content #testimonials-carousel {
-	color: white;
-	padding: 45px;
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);*/
-	font-style: italic;
+	color: #FFF;
 	text-align: center;
+	padding: 45px;
 	width: 100%;
+	font-style: italic;
 }
 #testimonials-carousel .carousel-inner {
 	top: -30px;
 	padding-top: 60px;
 }
 #testimonials-carousel blockquote {
-	border-width: 0;
-	line-height: 1.5;
 	font-size: 1.75em;
-	padding: 0 3em;
-	font-weight: lighter;
+	line-height: 1.5;
 	position: relative;
+	font-weight: lighter;
+	border-left-width: 0;
+	padding: 0 3em;
 }
 #testimonials-carousel blockquote > span.fa {
-	/*font-size: 2.8em;*/
-	position:absolute;
-	left: 1%; top: -10%;
-	color: white;
+	position: absolute;
+	left: 2%;
+	top: -10%;
+	/*color: #314e22;*/
 	z-index: 1000;
 	font-style: italic;
 }
 #testimonials-carousel blockquote cite {
 	position: relative;
+	color: #314e22;
 }
 #testimonials-carousel blockquote cite:before {
+	/** add emdash to cite author **/
 	content: '\2014 \00A0';
 	position: absolute;
 	left: -30px;
 }
 #testimonials-carousel blockquote footer {
-	width: 35%;
 	position: relative;
-	top: 0;
 	float: right;
-	color: #FFA538;
+	top: 0;
+	width: 35%;
+	color: inherit;
 }
-#testimonials-carousel blockquote footer p {
-	font-size: 0.75em;
+#testimonials-carousel blockquote > footer .cite-author {
+	font-weight: bold;
+}
+#testimonials-carousel blockquote > footer .cite-location {
+	font-size: 0.6em;
+	color: rgba(255, 255, 255, 1);
+	position: relative;
+	top: -6px;
 }
 #testimonials-carousel .carousel-indicators {
 	position: absolute;
 	bottom: -25%;
-	font-size: 2em;
-	opacity: 0.5;
+	font-size: 2.15em;
+	opacity: 0.85;
 }
 #testimonials-carousel .carousel-indicators > li {
 	height: 0.5em;
 	width: 0.5em;
 	border-width: 2px;
-	background-color: #002600;
-	border-color: #f8fff4;
+	/*background-color: #002600;*/
+	/*border-color: #f8fff4;*/
 }
 #testimonials-carousel .carousel-indicators > li.active {
-	background: #f8fff4;
+	background: #FFF;
 }
+
+
 
 /********************
 FOOTER
