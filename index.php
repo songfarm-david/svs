@@ -20,7 +20,9 @@
 		<div class="loading-part">
 				<div class="loader-home">Loading...</div>
 			</div>
-		<!-- DOCUMENT START -->
+
+		<!-- START -->
+		<!-- Main Header -->
 		<header id="header-main" class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-push-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
@@ -64,7 +66,6 @@
 				</div>
 			</div>
 		</header>
-
 		<!-- Main Nav -->
 		<nav>
 			<div class="container-fluid">
@@ -111,11 +112,9 @@
 				</div>
 			</div>
 		</nav>
-
-		<!-- Start of Main Content -->
+		<!-- Main Content -->
 		<main>
-
-			<!-- feature-1 Window -->
+			<!-- Feature Panel -->
 			<section id="feature-1" class="section">
 				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 					<!-- Indicators -->
@@ -150,8 +149,7 @@
 					</a>
 				</div>
 			</section>
-
-			<!-- Content -->
+			<!-- Content-1 -->
 			<section id="content-1" class="section container-fluid">
 
 					<article class="section-row">
@@ -196,8 +194,8 @@
 					</article>
 
 			</section>
-
-			<section id="content-3" class="section container-fluid">
+			<!-- Content-2 -->
+			<section id="content-2" class="section container-fluid">
 				<h2>
 					Our Values
 				</h2>
@@ -244,7 +242,7 @@
 
 
 			</section>
-
+			<!-- Switch @ Testimonials -->
 			<section id="parallax-content">
 				<div class="overlay"></div>
 				<section id="testimonials-carousel" class="container">
@@ -305,35 +303,37 @@
 					</div>
 				</section>
 			</section>
-
-			<aside id="accreditation" class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
+			<!-- Aside @ Accreditations -->
+			<div class="container-fluid" style="background-color:#ffffff;">
+				<aside id="accreditation" class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3><span class="hero-title">The Garage Door Depot</span> is accredited with:</h3>
+						</div>
 					</div>
-				</div>
-				<div class="row acrdts">
-					<div class="col-lg-12">
-						<div class="row">
-							<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
-								<img src="images/partners/bbb-accreditation.logo.jpg" alt="" />
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-								<img src="images/partners/cfib-logo.jpg" alt="" />
-							</div>
-							<div class="col-lg-3 col-md-3 col-md-offset-0 col-lg-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
-								<img src="images/partners/ida-logo.jpg" alt="" />
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-								<img src="images/partners/add.jpg" alt="" />
+					<div class="row acrdts">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
+									<img src="images/partners/bbb-accreditation.logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+									<img src="images/partners/cfib-logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-3 col-md-3 col-md-offset-0 col-lg-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-2 col-xs-4">
+									<img src="images/partners/ida-logo.jpg" alt="" />
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+									<img src="images/partners/add.jpg" alt="" />
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</aside>
+				</aside>
+			</div>
 
 		</main>
-
+		<!-- Footer -->
 		<footer id="footer-primary">
 			<div class="container">
 				<div class="row">
@@ -387,7 +387,6 @@
 				<small>&copy; Garage Door Depot Victoria - 2016</small>
 			</p>
 		</section>
-
 
 		<!--jQuery CDN-->
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>

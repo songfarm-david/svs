@@ -64,6 +64,9 @@ a:focus {
 	font-size: 100%;
 	font-weight: bold;
 }
+#contact-primary a:hover {
+	text-decoration: none;
+}
 #widget-1 {
 	position: relative;
 	z-index: auto;
@@ -82,7 +85,7 @@ a:focus {
 	z-index: inherit;
 }
 #widget-1 .input-group input:focus {
-	box-shadow: 0px 0 8px #FF7700;
+	box-shadow: 0px 0 8px #F2B910;
 }
 #widget-1 .input-group input + span.input-group-btn {
 	position: relative;
@@ -209,7 +212,7 @@ feature-1 - CAROUSEL
 	width: 100%;
 }
 .item.feature-photo {
-	min-height: 700px;
+	min-height: 600px;
 	background-size: cover;
 }
 .item.feature-photo-1 {
@@ -308,7 +311,7 @@ CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
 /***********************
 CONTENT-2 @ ABOUT
 **************/
-#content-3.section {
+#content-2.section {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	box-shadow: inset 2px 1px 24px 0px rgba(0,0,0,1);
 	text-align: center;
@@ -316,14 +319,14 @@ CONTENT-2 @ ABOUT
 	background: white;
 	padding: 54px 0 120px;
 }
-#content-3 h2 {
+#content-2 h2 {
 	font-size: 4em;
 	font-weight: normal;
 	padding-top: 25px;
 	margin-bottom: 45px;
 	position: relative;
 }
-#content-3 h2:after{
+#content-2 h2:after{
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -333,20 +336,20 @@ CONTENT-2 @ ABOUT
 	background-color: #22333B;
 	bottom: -18px;
 }
-#content-3 article {
+#content-2 article {
 	padding: 15px;
 }
-#content-3 article p {
+#content-2 article p {
 	padding: 15px;
 	line-height: 1.5;
 }
 
-#content-3 a.cta-about {
+#content-2 a.cta-about {
 	display: inline-block;
 	margin: 24px 0 18px;
 	line-height: 1;
 }
-#content-3 h4 {
+#content-2 h4 {
 	font-size: 1.75em;
 	display: inline-block;
 	height: 100%;
@@ -361,13 +364,13 @@ CONTENT-2 @ ABOUT
 	line-height: 1.3;
 	transition: all 750ms;
 }
-#content-3 h4:hover {
+#content-2 h4:hover {
 	background-color: transparent;
 	color: inherit;
 	text-decoration: underline;
 	box-shadow: 0px 5px 5px 1px rgba(22, 24, 25,0);
 }
-#content-3 .glyphicon {
+#content-2 .glyphicon {
 	font-size: 2.1em;
 	color: white;
 	display: inline-block;
@@ -490,8 +493,6 @@ TESTIMONIALS
 	background: #FFF;
 }
 
-
-
 /********************
 FOOTER
 *****************/
@@ -501,9 +502,6 @@ main + footer {
 #footer-primary {
 	padding: 45px 0;
 	color: #f8fff4;
-}
-#footer-primary [class*="col-"] {
-
 }
 #footer-primary section,
 #footer-primary article {
@@ -519,7 +517,7 @@ main + footer {
 	color: #f8fff4;
 }
 #footer-primary a[class*="cta"] {
-	color: orange;
+	color: #F2B910;
 }
 #footer-primary .special {
 	background-color: #f8fff4;
