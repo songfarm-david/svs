@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>The Garage Door Depot - Canada's #1 Garage Door Company</title>
-		<meta name="description" content="Canada's national overhead door company. Let us help choose the right style and design for your new garage door design." />
+		<title>Bob's Widgets - #1 in Victoria!</title>
+		<meta name="description" content="Your site description here.." />
 		<link rel="canonical" href="http://www.garagedoordepot.ca/"/>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -17,55 +17,48 @@
     <![endif]-->
 	</head>
 	<body class="container-fluid">
+		<!-- Javascript Pre-loader -->
 		<div class="loading-part">
-				<div class="loader-home">Loading...</div>
-			</div>
+			<div class="loader-home">Loading...</div>
+		</div>
 
-		<!-- START -->
+		<!-- CONTENT START -->
+
 		<!-- Main Header -->
-		<header id="header-main" class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-push-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 padding-off">
-
-							<!-- MAIN CTA -->
-
-								<article id="contact-primary">
-									<a href="#">Call: (250)&nbsp;885-5455</a>
-								</article>
-
-						</div>
+		<header id="header-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<section id="brand-logo-main">
+							<h4 class="hidden">Company Logo</h4>
+							<a href="index.php">
+								<!-- Company Logo Here -->
+								<img src="assets/garage-door-depot-logo.png" alt="Garage Door Depot logo" height="145" width="100%"/>
+							</a>
+						</section>
 					</div>
-					<div class="row widget-1-container">
-						<div class="col-lg-12 col-md-12">
-
-							<!-- Header Widget 1 -->
-							<div id="widget-1" class="widget-container">
-
-								<div class="input-group">
-									<input type="text" class="form-control input-md" placeholder="Enter Postal Code" />
-					        <span class="input-group-btn">
-				            <button class="btn btn-default btn-sm" type="button">
-			                <i class="glyphicon glyphicon-search"></i>
-				            </button>
-					        </span>
-								</div>
-
-				      </div>
-
-						</div>
+					<div class="col-md-6 col-sm-12">
+						<section id="contact-primary">
+							<!-- Main CTA -->
+							<h4 class="hidden">Primary Contact</h4>
+							<a href="tel:1234567895">
+								Call: (123)&nbsp;456-7895
+							</a>
+						</section>
+						<section id="widget-1">
+							<!-- Widget 1 -->
+							<h4 class="hidden">Social Media Links</h4>
+							<a href="#"><span class="fa fa-facebook-official"></span></a>
+							<a href="#"><span class="fa fa-twitter-square"></span></a>
+							<a href="#"><span class="fa fa-google-plus-square"></span></a>
+							<a href="#"><span class="fa fa-linkedin-square"></span></a>
+						</section>
 					</div>
-				</div>
-				<div class="col-lg-6 col-lg-pull-6 col-md-pull-6 col-sm-6 col-sm-pull-6 col-xs-12">
-
-					<a href="index.php"><div id="brand-logo-main" class="logo">
-						<!-- MAIN LOGO IMAGE-->
-					</div></a>
-
 				</div>
 			</div>
 		</header>
+		<!-- end of Header -->
+
 		<!-- Main Nav -->
 		<nav>
 			<div class="container-fluid">

@@ -37,27 +37,22 @@ a:focus {
 	text-decoration: none;
 }
 .padding-off {}
-
+.hidden {
+	display: none;
+}
 /**************************
 	MAIN HEADER
 	********************/
-#header-main {
+header#header-main {
 	padding: 24px 15px 18px;
+	font-size: 2.4em;
 }
-#brand-logo-main {
-	background-image: url(../assets/garage-door-depot-logo.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100%;
-	height: 115px;
-	max-height: 115px;
-	background-position: 0 center;
-}
-#contact-primary {
-	text-align: right;
-	padding-right: 3px;
-	font-size: 2em;
-	margin-bottom: 16px;
+#header-main #brand-logo-main {}
+
+#header-main #contact-primary {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
 }
 #contact-primary a {
 	color: #fff;
@@ -70,47 +65,12 @@ a:focus {
 	text-decoration: none;
 }
 #widget-1 {
-	position: relative;
-	z-index: auto;
+	text-align: right;
+	height: 144px; /* adjusts height of complimentary column. To match logo height */
+	border: 2px solid red;
 }
-#widget-1 .input-group {
-	border-radius: 4px;
-	right: -44px;
-}
-#widget-1 .input-group input {
-	border: 1px solid #C6831D;
-	border: none;
-	background-color: #f8fff4;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	box-shadow: 0px 0 3px 1px rgba(0, 0, 0, 0.35);;
-	z-index: inherit;
-}
-#widget-1 .input-group input:focus {
-	box-shadow: 0px 0 8px #F2B910;
-}
-#widget-1 .input-group input + span.input-group-btn {
-	position: relative;
-	left: -44px;
-	top: -1px;
-	background-color: #314e22;
-	padding: 0 3px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	/*z-index: 14;*/
-	/*overflow: hidden;*/
-}
-#widget-1 .input-group input + span.input-group-btn button {
-	font-size: 1.1em;
-	border-width: 0px;
-	background-color: #314e22;
-	cursor: default;
-	z-index: inherit;
-}
-#widget-1 .input-group input + span.input-group-btn button.btn-sm {
-	font-size: 20px;
-	color: #f8fff4;
-	color: #daf3cc;
+#widget-1 .fa {
+	color: #314e22;
 }
 
 /***************************
@@ -676,8 +636,7 @@ ul.social-links li {
 		padding: 15px 0;
 	}
 	#widget-1 {
-		display: none;
-		border: 2px solid green;
+		/*display: none;*/
 	}
 	#feature-1 {
 		display: none;
