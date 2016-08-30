@@ -28,21 +28,21 @@
 		<header id="header-main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<section id="brand-logo-main">
 							<h4 class="hidden">Company Logo</h4>
 							<a href="index.php">
 								<!-- Company Logo Here -->
-								<img src="assets/garage-door-depot-logo.png" alt="Garage Door Depot logo" height="145" width="100%"/>
+								<img src="assets/garage-door-depot-logo.png" alt="Garage Door Depot logo" width="100%"/>
 							</a>
 						</section>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<section id="contact-primary">
 							<!-- Main CTA -->
 							<h4 class="hidden">Primary Contact</h4>
 							<a href="tel:1234567895">
-								Call: (123)&nbsp;456-7895
+								Call:&nbsp;(123)&nbsp;456-7895
 							</a>
 						</section>
 						<section id="widget-1">
