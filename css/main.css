@@ -9,12 +9,8 @@ Palette:
 GLOBAL STYLES
 ****************/
 body {
-	background-color: #f8fff4;
-	min-width: 320px;
-	/*background-color: #8AAD79;*/
-	/*background-color: #daf3cc;*/
-	background-color: #D0D8CB;
 	background-color: #edffe4;
+	min-width: 320px;
 }
 body.container-fluid {
 	padding: 0;
@@ -40,6 +36,7 @@ a:focus {
 .hidden {
 	display: none;
 }
+
 /**************************
 	MAIN HEADER
 	********************/
@@ -48,7 +45,6 @@ a:focus {
 	font-size: 2.4em;
 }
 #header-main #brand-logo-main {}
-
 #header-main #contact-primary {
 	text-align: right;
 	white-space: nowrap;
@@ -65,8 +61,6 @@ a:focus {
 }
 #widget-1 {
 	text-align: right;
-	/*height: 144px; */
-	/* adjusts height of complimentary column. To match logo height */
 }
 #widget-1 .fa {
 	color: #314e22;
@@ -76,7 +70,6 @@ a:focus {
 NAVIGATION
 *******************/
 nav {
-	/*font-family: 'Asap';*/
 	background-color: #314e22;
 	font-size: 1em;
 	font-weight: normal;
@@ -88,23 +81,27 @@ nav ul.container {
 	list-style-type: none;
 	padding: 0;
 	margin-bottom: 0;
+	padding-left: 15px;
 }
 nav ul li {
 	display: inline-block;
 	float: left;
 	text-align: center;
+	width: 11%;
 }
 nav ul li a {
 	color: #f8fff4;
+	background-color: inherit;
 	display: block;
-	padding: 0 25px;
-	line-height: 3.1; /* controls height of navigation! */
-	transition: color 100ms;
+	/*padding: 0 15px;*/
+	line-height: 3; /* controls height of navigation! */
+	transition: all 100ms;
 	font-weight: lighter;
 }
 nav ul li a:hover {
 	text-decoration: none;
 	color: #F2B910;
+	background-color: rgb(34,51,59);
 }
 .dropdown-btn {
 	cursor: pointer;
@@ -113,8 +110,10 @@ nav ul li a:hover {
 ul.dropdown-content {
 	position: absolute;
 	top: 54px;
+	left: 0;
+	right: 0;
+	width: 100%;
 	opacity: 0;
-	left: 16px;
 	background-color: rgba(34, 51, 59, 0.9);
 	z-index: 1;
 	box-shadow: -1px 2px 5px 1px rgba(0,0,0,.35);
@@ -134,7 +133,7 @@ ul.dropdown-content {
 }
 .dropdown-content li a {
 	padding: 9px 6px;
-	padding-left: 9px;
+	padding-left: 15px;
 	line-height: 2.25;
 	transition: background-color 0.5s;
 }
@@ -516,12 +515,19 @@ ul.social-links li {
 	MEDIA QUERIES
 ********************/
 
+/************************
+	ANYTHING OVER 1200px
+	*****************/
 @media (min-width: 1201px) {
 	#widget-1 {
 		position: relative;
 		top: 7px;
 	}
 }
+
+/*************************
+	BELOW 1200px
+	*******************/
 @media (max-width: 1200px) {
 	#header-main {
 		width: 100%;
@@ -549,8 +555,8 @@ ul.social-links li {
 		font-size: 2.2em;
 	}
 	#header-main #brand-logo-main img {
-		height: 119px;
-		width: 455px;
+		height: 114px;
+		width: 369px;
 	}
 	#header-main > .container {
 		width: 100%;
@@ -645,6 +651,9 @@ ul.social-links li {
 	#header-main #brand-logo-main img {
 		width: 100%;
 		height: auto;
+	}
+	#header-main [class*="col-"]:first-child {
+		padding: 0;
 	}
 	#header-main [class*="col-"]:last-child {
 		position: absolute;
