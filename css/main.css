@@ -93,7 +93,7 @@ nav ul li {
 	width: 11%;
 }
 nav ul li a {
-	color: #f8fff4;
+	color: #fcffe4;
 	background-color: inherit;
 	display: block;
 	/*padding: 0 15px;*/
@@ -148,11 +148,28 @@ ul.dropdown-content {
 	border-color: transparent;
 	border-width: 2px;
 }
-/*.dropdown-content li a:hover {
-	color: #ffbe0f;*
-}*/
 .dropdown-btn:hover .dropdown-content {
 	opacity: 1;
+}
+
+/*********************
+	BREADCRUMBS
+	***************/
+#breadcrumbs {
+	position:absolute;
+	left: 0; right: 0;
+	line-height: 1;
+	background-color: #22333b;
+}
+#breadcrumbs ol {
+	margin: 0 auto;
+}
+#breadcrumbs li {
+	color: #cdc;
+
+}
+#breadcrumbs .active {
+	color: #fcffe4;
 }
 
 /**********************

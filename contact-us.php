@@ -98,15 +98,25 @@
 			</div>
 		</nav>
 
+		<!-- PHP Dynamic Breadcrumbs -->
+		<div id="breadcrumbs" class="container-fluid">
+			<ol class="breadcrumb container breadcrumb-container" style="background-color: transparent;">
+				<li>Home</li>
+				<li class="active">Contact Us</li>
+			</ol>
+		</div>
+		<!-- end of Breadcrumbs -->
+
 		<main id="contact-us">
 			<div class="container">
 				<!-- breadcrumbs -->
-				<h1>Contact Us</h1>
+				<h1 class="hidden">Contact Us</h1>
+				<h2>Let's stay in touch!</h2>
 				<!-- end of breadcrumbs -->
 				<section id="contact-us-1">
-					<div class="row" style="border:2px solid red;">
+					<div class="row">
 
-						<div class="col-sm-6 col-md-6">
+						<div class="col-sm-6 col-md-6 pull-right">
 							<article id="contact-form">
 								<h3>Questions or Comments?</h3>
 								<p>
@@ -133,20 +143,18 @@
 							</article>
 						</div>
 
-						<div class="col-sm-6 col-md-6">
+						<div class="col-sm-6 col-md-6 push-left">
 							<article id="quick-call">
 								<h4 class="hidden">Contact Dave by Phone:</h4>
 								<h3>Want<br>quick service?</h3>
-								<button>
-									Call Dave
-								</button>
+								<button>Call Dave</button>
 								<!-- <p>
 									<a href="tel:2508855455">250-885-5455</a>
 								</p> -->
 							</article>
-							<div class="col-md-12">
-								<article id="google-reviews" style="border: 2px solid blue;">
-									<h4>Google Reviews</h4>
+							<div class="col-xs-12">
+								<article id="google-reviews">
+									<h4>Google+ Reviews</h4>
 									<p>
 										Check out what people are saying about us on Google+ !
 									</p>
@@ -154,35 +162,40 @@
 							</div>
 						</div>
 
-
 					</div>
 				</section>
 
 				<!-- social media + video -->
 				<section>
 					<aside id="social-media">
-						<div class="row" style="border:2px solid green;">
-							<div class="col-xs-12 col-md-6" style="border:2px solid yellow;">
-								<a href="#linktofacebook"><h3><span class="fa fa-facebook-official" aria-hidden="true;"></span>Follow Dave on Social Media</h3></a>
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<a href="#linktofacebook">
+									<h3><span class="fa fa-facebook-official" aria-hidden="true;"></span>
+										Follow Dave on Social Media
+									</h3>
+								</a>
 								<p>
-									Dave is always uploading fun, new content about his adventures on the road to <a href="#linktofacebook">The Garage Door Depot's facebook page</a>.<br>Check it out!
+									Dave is always uploading fun, new content about his adventures on the road to <a href="#linktofacebook">The Garage Door Depot's facebook page</a>.<br>Take a break and check it out!
 								</p>
 								<div class="row">
 									<div class="col-xs-12 col-md-6">
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-											<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-										</ul>
+										<section>
+											<h4 class="hidden">Social Media Links</h4>
+											<ul class="social-links">
+												<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
+												<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+												<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
+												<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+											</ul>
+										</section>
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6" style="border:2px solid yellow;">
+							<div class="col-xs-12 col-md-6">
 								<section id="video-facebook">
 									<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FGarageDoorDepotVictoria%2Fvideos%2F476532332467036%2F&show_text=0&width=400" width="100%" height="400" style="border:none;overflow:visible;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 								</section>
-
 							</div>
 						</div>
 					</aside>

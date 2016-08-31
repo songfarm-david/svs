@@ -10,8 +10,15 @@
 	background: white;
 }
 /* bread-crumb navigation titles */
-#contact-us h1 {
-	font-size: 1.2em;
+#contact-us h2 {
+	font-size: 4.5rem;
+	margin-top: 6rem;
+	margin-right: -15px;
+	padding: 18px 0;
+	padding-left: 1.5rem;
+	text-transform: capitalize;
+	background-color: #ff7700;
+	color: #f8fff4;
 }
 
 /*******************
@@ -19,6 +26,7 @@
 	***************/
 #contact-us-1 {
 	/*margin-bottom: 144px;*/
+	height: 70vh;
 }
 
 /*********************
@@ -26,11 +34,10 @@
 	***************/
 #contact-form {
 	min-width: 300px;
-	background-color: #314e22;
+	background-color: #ff7700;
 	padding: 15px;
 	color: #fff;
-	box-shadow: inset 1px 1px 3px 3px rgba(201,234,212,.5),
-							0px 0px 2px 2px rgba(11,11,11,.75);
+	box-shadow: inset 0px 0px 2px 3px #C15B01;
 	margin: 15px;
 }
 #contact-form h3 {
@@ -43,8 +50,9 @@
 #contact-form h3::after {
 	content: "";
 	position: absolute;
-	height: 1px;
-	width: 80%;
+	height: 2px;
+	border-radius: 1px;
+	width: 90%;
 	left: 50%;
 	bottom: -15px;
 	transform: translateX(-50%);
@@ -61,19 +69,19 @@
 	padding: 0 15px 15px;
 	background-color: transparent;
 	font-family: 'Asap';
+	font-size: 1.3rem;
 }
 #contact-form input,
 #contact-form textarea {
 	border-radius: 1px;
 	margin-bottom: 20px;
-	background-color: RGBA(224, 237, 218, 0.69);
-	border-color: #E0EDDA;
+	background-color: #C15B01;
+	border-color: #fff;
 	padding: 12px 6px;
 	padding-left: 15px;
 	line-height: 1.6;
 	font-size: 1.1em;
-	box-shadow: inset 1px 1px 5px 1px rgba(33,33,33,.33),
-							0px 0px 3px 2px rgba(201,234,212,.5);
+	box-shadow: inset 1px 1px 3px 2px #C45B00;
 }
 #contact-form textarea {
 	padding-top: 12px;
@@ -112,15 +120,18 @@
 #quick-call {
 	border: 3px solid #22333b;
 	color: #22333b;
-	/*width: 360px;*/
 	font-size: 1.8em;
 	padding: 15px;
-	text-align: right;
-	margin: 36px 15px 72px;
+	margin: 15px 0 72px -15px;
 	position: relative;
-	left: 72px;
+	text-align: right;
+	/*left: 72px;*/
 	width: 315px;
-	margin-bottom: 72px;
+	width: 100%;
+	border-left-width: 0;
+	/**
+		will animate
+		**/
 }
 #quick-call > h3 {
 	font-size: 1.6em;
@@ -187,7 +198,6 @@
 	background-color: #22333b;
 }
 
-
 /*********************
 	SOCIAL MEDIA
 	******************/
@@ -196,6 +206,8 @@
 	font-size: 1.5em;
 	color: #22333b;
 	margin: 15px;
+	background-color: #22333b;
+	color: #fff;
 }
 #social-media a:hover {
 	text-decoration: none;
