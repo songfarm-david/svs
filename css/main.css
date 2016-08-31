@@ -514,36 +514,6 @@ ul.social-links li {
 	margin: 0;
 }
 
-#contact-us {
-}
-#contact-us > h1 {
-	font-size: 1.2em;
-}
-#contact-1 {
-	border: 2px solid green;
-	text-align: center;
-	font-size: 2.4em;
-}
-#contact-1 > h3 {
-	font-size: 1.1em;
-}
-#contact-1 > h3 + span {
-	font-size: 0.65em
-}
-#contact-2 {
-	visibility: hidden;
-}
-#service-request {
-	border: 2px solid red;
-	padding: 15px;
-}
-#service-request input,
-#service-request textarea {
-	border-radius: 1px;
-	margin-bottom: 15px;
-}
-#service-request input
-
 /***********************
 	MEDIA QUERIES
 ********************/

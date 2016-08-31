@@ -98,79 +98,100 @@
 			</div>
 		</nav>
 
-<main style="background-color:white;">
+<main id="contact-us">
 	<div class="container">
-		<section id="contact-us">
 			<!-- breadcrumbs -->
 			<h1>Contact Us</h1>
 			<!-- end of breadcrumbs -->
-			<div class="row">
-				<div class="col-sm-5">
-					<section>
-						<h3>Section 1</h3>
-						<p>
-							Some generic text here. <a href="#">Call Dave</a> for services.
-						</p>
-					</section>
+			<section id="contact-form-number">
+				<div class="row" style="border:1px solid red;">
+					<div class="col-sm-6 col-md-push-6 col-md-offset-1 col-md-4" style="border:1px solid yellow";>
+						<article id="quick-call">
+							<h4 class="hidden">Contact Dave by Phone:</h4>
+							<p>Want quick service?</p>
+							<p>
+								Call Dave
+							</p>
+							<p>
+								<a href="tel:2508855455">250-885-5455</a>
+							</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-md-pull-6 col-md-offset-2 col-md-5" style="border:1px solid yellow";>
+						<article id="contact-form">
+							<h3>Questions or Comments?</h3>
+							<p>
+								Tell Dave what's on your mind, what you thought of his latest social share, or questions about a garage door.
+							</p>
+							<form class="" action="" method="post">
+								<div class="row">
+									<div class="col-xs-12">
+										<input class="form-control" type="text" placeholder="Your name" name="name" value="" autofocus>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<textarea class="form-control" name="name" rows="4" cols="40" placeholder="Leave Dave your questions or comments. We love hearing what you have to say!"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<input class="form-control" type="text" placeholder="Your Phone # or Email" name="name" value="">
+									</div>
+								</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+						</article>
+					</div>
+					<div class="col-sm-6 pull-right">
+						<aside id="social-media" style="border:1px solid red;">
+							<div class="col-xs-12">
+								<a href="#linktofacebook"><h3><span class="fa fa-facebook-official" aria-hidden="true;"></span>Follow Dave on Social Media</h3></a>
+								<p>
+									Dave is always uploading fun, new content about his adventures on the road to <a href="#linktofacebook">The Garage Door Depot's facebook page</a>.<br>Check it out!
+								</p>
+							</div>
+							<div class="col-xs-12">
+								<ul class="social-links">
+									<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
+									<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+									<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
+									<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+								</ul>
+							</div>
+						</aside>
+					</div>
 				</div>
-				<div class="col-sm-7">
-					<article id="service-request">
-						<h3>Get in touch with Dave</h3>
-						<form class="" action="" method="post">
-							<div class="row">
-								<div class="col-xs-12">
-									<input class="form-control" type="text" placeholder="What do you want to say to Dave?" name="name" value="">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-12">
-									<textarea class="form-control" name="name" rows="15" cols="40" placeholder="Leave Dave your questions or comments. We love hearing what you have to say!"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-12">
-									<input class="form-control" type="text" placeholder="Your Phone # or Email" name="name" value="">
-								</div>
-							</div>
+			</section>
 
-							</div>
-							<div class="row">
-
+			<div class="container" style="border:1px solid green;">
+				<!-- Physical Location -->
+				<section id="location">
+					<div class="container">
+						<div class="row">
+							<article id="company-address">
+								<div class="col-sm-6">
+									<!-- physical address -->
+									<address class="">
+										<span>The Garage Door Depot Victoria</span>
+										<span>879 Melody Place</span>
+										<span>Victoria, British Columbia</span>
+										<span>V2Z 1H0</span>
+									</address>
+								</div>
+							</article>
+							<section id="map">
+								<div class="col-sm-6" style="height:300px;">
+									<!-- map here -->
+								</div>
+							</section>
 						</div>
-						</form>
-					</article>
-				</div>
+					</div>
+				</section>
 			</div>
 
 
 
-
-
-
-			<!-- Physical Location -->
-			<section id="contact-2">
-				<div class="container">
-					<div class="row">
-						<article id="company-address">
-							<div class="col-lg-6">
-								<!-- physical address -->
-								<address class="">
-									<span>The Garage Door Depot Victoria</span>
-									<span>879 Melody Place</span>
-									<span>Victoria, British Columbia</span>
-									<span>V2Z 1H0</span>
-								</address>
-							</div>
-						</article>
-						<section id="map" style="height:400px;">
-							<div class="col-lg-6" style="height:400px;">
-								<!-- map here -->
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
-		</section>
 	</div>
 </main>
 
