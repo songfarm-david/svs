@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bob's Widgets - #1 in Victoria!</title>
-		<meta name="description" content="Your site description here.." />
+		<title>The Garage Door Depot - Canada's #1 Garage Door Company</title>
+		<meta name="description" content="Canada's national overhead door company. Let us help choose the right style and design for your new garage door design." />
 		<link rel="canonical" href="http://www.garagedoordepot.ca/"/>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -30,7 +30,7 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<section id="brand-logo-main">
-							<h4 class="hidden">Company Logo</h4>
+							<h4 class="hidden">The Garage Door Depot Logo</h4>
 							<a href="index.php">
 								<!-- Company Logo Here -->
 								<img src="assets/garage-door-depot-logo.png" alt="Garage Door Depot logo" width="100%"/>
@@ -42,7 +42,7 @@
 							<!-- Main CTA -->
 							<h4 class="hidden">Primary Contact</h4>
 							<a href="tel:1234567895">
-								Call:&nbsp;(123)&nbsp;456-7895
+								Call:&nbsp;(250)&nbsp;885-5455
 							</a>
 						</section>
 						<section id="widget-1">
