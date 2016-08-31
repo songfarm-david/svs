@@ -100,65 +100,75 @@
 
 		<main id="contact-us">
 			<div class="container">
-					<!-- breadcrumbs -->
-					<h1>Contact Us</h1>
-					<!-- end of breadcrumbs -->
-					<section id="contact-us-1">
-						<div class="row">
-							<div class="col-sm-6 col-md-offset-1 col-md-5 col-md-push-6">
-								<article id="quick-call">
-									<h4 class="hidden">Contact Dave by Phone:</h4>
-									<p>Want quick service?</p>
-									<p>
-										Call Dave
-									</p>
-									<p>
-										<a href="tel:2508855455">250-885-5455</a>
-									</p>
-								</article>
-							</div>
-							<div class="col-sm-6 col-md-6 col-md-pull-6">
-								<article id="contact-form">
-									<h3>Questions or Comments?</h3>
-									<p>
-										Tell Dave what's on your mind, what you thought of his latest social share, or questions about a garage door.
-									</p>
-									<form class="" action="" method="post">
-										<div class="row">
-											<div class="col-xs-12">
-												<input class="form-control" type="text" placeholder="Your name" name="name" value="" autofocus>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-xs-12">
-												<textarea class="form-control" name="name" rows="4" cols="40" placeholder="Leave Dave your questions or comments. We love hearing what you have to say!"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-xs-12">
-												<input class="form-control" type="text" placeholder="Your Phone # or Email" name="name" value="">
-											</div>
-										</div>
-										<button type="submit" class="btn btn-default">Submit</button>
-									</form>
-								</article>
-							</div>
-							<div class="col-sm-6 pull-right">
+				<!-- breadcrumbs -->
+				<h1>Contact Us</h1>
+				<!-- end of breadcrumbs -->
+				<section id="contact-us-1">
+					<div class="row" style="border:2px solid red;">
 
+						<div class="col-sm-6 col-md-6">
+							<article id="contact-form">
+								<h3>Questions or Comments?</h3>
+								<p>
+									Tell Dave what's on your mind, what you thought of his latest social share, or questions about a garage door.
+								</p>
+								<form class="" action="" method="post">
+									<div class="row">
+										<div class="col-xs-12">
+											<input class="form-control" type="text" placeholder="Your name" name="name" value="" autofocus>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<textarea class="form-control" name="name" rows="4" cols="40" placeholder="Leave Dave your questions or comments. We love hearing what you have to say!"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<input class="form-control" type="text" placeholder="Your Phone # or Email" name="name" value="">
+										</div>
+									</div>
+									<button type="submit" class="btn btn-default">Submit</button>
+								</form>
+							</article>
+						</div>
+
+						<div class="col-sm-6 col-md-6">
+							<article id="quick-call">
+								<h4 class="hidden">Contact Dave by Phone:</h4>
+								<h3>Want<br>quick service?</h3>
+								<button>
+									Call Dave
+								</button>
+								<!-- <p>
+									<a href="tel:2508855455">250-885-5455</a>
+								</p> -->
+							</article>
+							<div class="col-md-12">
+								<article id="google-reviews" style="border: 2px solid blue;">
+									<h4>Google Reviews</h4>
+									<p>
+										Check out what people are saying about us on Google+ !
+									</p>
+								</article>
 							</div>
 						</div>
-					</section>
 
-					<!-- social media + video -->
-					<section>
-						<aside id="social-media">
-							<div class="col-xs-12 col-md-offset-6 col-md-6">
+
+					</div>
+				</section>
+
+				<!-- social media + video -->
+				<section>
+					<aside id="social-media">
+						<div class="row" style="border:2px solid green;">
+							<div class="col-xs-12 col-md-6" style="border:2px solid yellow;">
 								<a href="#linktofacebook"><h3><span class="fa fa-facebook-official" aria-hidden="true;"></span>Follow Dave on Social Media</h3></a>
 								<p>
 									Dave is always uploading fun, new content about his adventures on the road to <a href="#linktofacebook">The Garage Door Depot's facebook page</a>.<br>Check it out!
 								</p>
 								<div class="row">
-									<div class="col-xs-12">
+									<div class="col-xs-12 col-md-6">
 										<ul class="social-links">
 											<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
 											<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
@@ -168,8 +178,15 @@
 									</div>
 								</div>
 							</div>
-						</aside>
-					</section>
+							<div class="col-xs-12 col-md-6" style="border:2px solid yellow;">
+								<section id="video-facebook">
+									<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FGarageDoorDepotVictoria%2Fvideos%2F476532332467036%2F&show_text=0&width=400" width="100%" height="400" style="border:none;overflow:visible;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+								</section>
+
+							</div>
+						</div>
+					</aside>
+				</section>
 			</div>
 
 			<!-- Physical Location -->
