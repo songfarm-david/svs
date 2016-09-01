@@ -107,11 +107,12 @@ nav ul li a {
 	line-height: 3; /* controls height of navigation! */
 	transition: background-color 500ms ease-out, color 250ms linear 50ms;
 	font-weight: lighter;
+	padding: 0 15px;
+	min-width: 180px;
 }
 nav ul li a:hover {
 	color: #fff;
 	background-color: #0F2D00;
-	transform: scale(1.05);
 }
 nav ul li a.current-page {
 	background-color: rgb(34,51,59);
@@ -125,7 +126,7 @@ ul.dropdown-content {
 	top: 54px;
 	left: 0;
 	right: 0;
-	width: 100%;
+	min-width: 100%;
 	opacity: 0;
 	background-color: rgba(34, 51, 59, 0.9);
 	z-index: 1;
@@ -136,6 +137,7 @@ ul.dropdown-content {
 	padding-left: 0;
 	padding: 0;
 	transition: opacity 250ms ease-out 100ms;
+	transform: translateX(-1000%);
 }
 .dropdown-content li {
 	display: block;
@@ -160,6 +162,7 @@ ul.dropdown-content {
 }
 .dropdown-btn:hover .dropdown-content {
 	opacity: 1;
+	transform: translateX(0);
 }
 
 /*********************
@@ -170,6 +173,7 @@ ul.dropdown-content {
 	left: 0; right: 0;
 	line-height: 1;
 	background-color: #22333b;
+	text-align: right;
 }
 #breadcrumbs ol {
 	margin: 0 auto;

@@ -72,27 +72,50 @@
 				</div>
 				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
 					<ul class="container">
-						<li><a href="index.php">Residential Doors &amp; Openers</a></li>
 						<li class="dropdown-btn">
-							<a href="about-us.php" data-toggle="collapse" data-target=".sub-nav-collapse-1">About Us</a>
-							<div class="collapse navbar-collapse sub-nav-collapse-1" id="sub-nav-collapse">
+							<a href="" data-toggle="collapse" data-target=".sub-nav-collapse-1">Residential Doors &amp; Openers</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-1">
 								<ul class="dropdown-content">
-									<li><a href="about-us.php#about-us">About Us</a></li>
-									<li><a href="about-us.php#testimonials">Testimonials</a></li>
+									<li><a href="#">Traditional Doors</a></li>
+									<li><a href="#">Carriage-House Doors</a></li>
+									<li><a href="#">Specialty Doors</a></li>
+									<li><a href="#">Openers</a></li>
 								</ul>
 							</div>
 						</li>
 						<li class="dropdown-btn">
-							<a href="services.php" data-toggle="collapse" data-target=".sub-nav-collapse-2">Services</a>
-							<div class="collapse navbar-collapse sub-nav-collapse-2" id="sub-nav-collapse">
+							<a href="" data-toggle="collapse" data-target=".sub-nav-collapse-2">Commercial Doors &amp; Openers</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-2">
 								<ul class="dropdown-content">
-									<li><a href="services.php#service-1">Service 1</a></li>
-									<li><a href="services.php#service-2">Service 2</a></li>
-									<li><a href="services.php#service-3">Service 3</a></li>
+									<li><a href="">Steel Doors</a></li>
+									<li><a href="">Aluminum Doors</a></li>
+									<li><a href="#">Rolling-Steel Doors</a></li>
+									<li><a href="#">Openers</a></li>
 								</ul>
 							</div>
 						</li>
-						<li><a href="contact-us.php" class="current-page">Contact Us</a></li>
+						<li class="dropdown-btn">
+							<a href="" data-toggle="collapse" data-target=".sub-nav-collapse-3">Parts &amp; Service</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-3">
+								<ul class="dropdown-content">
+									<li><a href="services.php">Residential</a></li>
+									<li><a href="services.php">Commercial</a></li>
+									<li><a href="services.php">Regular Maintenance Plans</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="dropdown-btn">
+							<a href="" data-toggle="collapse" data-target=".sub-nav-collapse-4">Other Products &amp; Services</a>
+							<div class="collapse navbar-collapse sub-nav-collapse-4">
+								<ul class="dropdown-content">
+									<li><a href="">Mirage Screen Doors</a></li>
+									<li><a href="">Security Gates</a></li>
+									<li><a href="">Project Consultations</a></li>
+									<li><a href="#">Bike Racks</a></li>
+									<li><a href="#">Garage Customization</a></li>
+								</ul>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -107,11 +130,11 @@
 		</div>
 		<!-- end of Breadcrumbs -->
 
-		<main id="contact-us">
+		<main>
 			<div class="container">
 				<!-- breadcrumbs -->
 				<h1 class="hidden">Contact Us</h1>
-				<h2>Let's stay in touch!</h2>
+				<!-- <h2>Let's stay in touch!</h2> -->
 				<!-- end of breadcrumbs -->
 				<section id="contact-us-1">
 					<div class="row">
