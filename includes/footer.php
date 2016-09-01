@@ -60,7 +60,7 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script>
       function initMap() {
-        var mapDiv = $("#map > div");
+        var mapDiv = $("#map");
 				// console.log(mapDiv[0]);
         var map = new google.maps.Map(mapDiv[0], {
             center: {lat: 44.540, lng: -78.546},

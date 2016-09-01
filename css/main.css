@@ -170,6 +170,7 @@ ul.dropdown-content {
 	***************/
 #breadcrumbs {
 	position:absolute;
+	z-index: 100;
 	left: 0; right: 0;
 	line-height: 1;
 	background-color: #22333b;
@@ -229,7 +230,6 @@ feature-1 - CAROUSEL
 	background: #fff url(../images/feature/compressed/feature-4-min.jpg) no-repeat;
 	background-position: 25% 30%;
 }
-
 
 /*****************************
 CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
