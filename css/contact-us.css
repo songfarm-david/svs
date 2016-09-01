@@ -17,7 +17,7 @@
 	padding-left: 1.5rem;
 	text-transform: capitalize;
 	background-color: #ff7700;
-	color: #f8fff4;
+	color: #fcffe4;
 }
 
 /*******************
@@ -101,16 +101,16 @@
 	height: 50px;
 }
 .form-control::-webkit-input-placeholder {
-   color: #f8fff4;
+   color: #fcffe4;
 }
 .form-control:-moz-placeholder { /* Firefox 18- */
-   color: #f8fff4;
+   color: #fcffe4;
 }
 .form-control::-moz-placeholder {  /* Firefox 19+ */
    color: #666;
 }
 .form-control:-ms-input-placeholder {
-   color: #f8fff4;
+   color: #fcffe4;
 }
 
 /***************

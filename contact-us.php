@@ -72,7 +72,7 @@
 				</div>
 				<div class="container-fluid collapse navbar-collapse" id="nav-collapse">
 					<ul class="container">
-						<li><a href="index.php">Home</a></li>
+						<li><a href="index.php">Residential Doors &amp; Openers</a></li>
 						<li class="dropdown-btn">
 							<a href="about-us.php" data-toggle="collapse" data-target=".sub-nav-collapse-1">About Us</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-1" id="sub-nav-collapse">
@@ -92,7 +92,7 @@
 								</ul>
 							</div>
 						</li>
-						<li><a href="contact-us.php" class="active">Contact Us</a></li>
+						<li><a href="contact-us.php" class="current-page">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
