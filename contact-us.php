@@ -240,19 +240,6 @@
 											<p>
 												Dave is always uploading fun, new content about his adventures on the road to <a href="#linktofacebook">The Garage Door Depot's facebook page</a>.<br>Take a break and check it out!
 											</p>
-											<div class="row">
-												<div class="col-xs-12 col-md-6">
-													<section>
-														<h4 class="hidden">Social Media Links</h4>
-														<ul class="social-links">
-															<li><a href="#"><span class="fa fa-facebook-official"></span></a></li>
-															<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-															<li><a href="#"><span class="fa fa-google-plus-square"></span></a></li>
-															<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-														</ul>
-													</section>
-												</div>
-											</div>
 										</div>
 										<div class="col-xs-12 col-md-6">
 											<section id="video-facebook">

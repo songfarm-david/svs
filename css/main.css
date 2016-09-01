@@ -96,7 +96,7 @@ nav ul.container {
 }
 nav ul li {
 	display: inline-block;
-	float: left;
+	float: right;
 	text-align: center;
 	/*width: 11%;*/
 }
@@ -174,7 +174,7 @@ ul.dropdown-content {
 	left: 0; right: 0;
 	line-height: 1;
 	background-color: #22333b;
-	text-align: right;
+	/*text-align: right;*/
 }
 #breadcrumbs ol {
 	margin: 0 auto;
@@ -453,6 +453,7 @@ TESTIMONIALS
 #testimonials-carousel blockquote cite {
 	position: relative;
 	color: #314e22;
+	font-weight: bold;
 }
 #testimonials-carousel blockquote cite:before {
 	/** add emdash to cite author **/

@@ -222,7 +222,7 @@
 	width: 100%;
 	margin-top: 1em;
 	position: relative;
-	display: none;
+	/*display: none;*/
 }
 #google-reviews > h4 {
 	position: relative;
