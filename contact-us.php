@@ -92,7 +92,7 @@
 								</ul>
 							</div>
 						</li>
-						<li><a href="contact-us.php">Contact Us</a></li>
+						<li><a href="contact-us.php" class="active">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -116,7 +116,7 @@
 				<section id="contact-us-1">
 					<div class="row">
 
-						<div class="col-sm-6 col-md-6 pull-right">
+						<div class="col-sm-6 col-md-7 col-md-offset-1 pull-right">
 							<article id="contact-form">
 								<h3>Questions or Comments?</h3>
 								<p>
@@ -143,10 +143,10 @@
 							</article>
 						</div>
 
-						<div class="col-sm-6 col-md-6 push-left">
+						<div class="col-sm-6 col-md-4 push-left">
 							<article id="quick-call">
 								<h4 class="hidden">Contact Dave by Phone:</h4>
-								<h3>Want<br>quick service?</h3>
+								<h3>Want<br>quick<br>service?</h3>
 								<button>Call Dave</button>
 								<!-- <p>
 									<a href="tel:2508855455">250-885-5455</a>
@@ -154,10 +154,15 @@
 							</article>
 							<div class="col-xs-12">
 								<article id="google-reviews">
-									<h4>Google+ Reviews</h4>
-									<p>
-										Check out what people are saying about us on Google+ !
-									</p>
+									<h4>Check out what people are saying about us on Google+</h4>
+									<p><small>Google+</small></p>
+									<div class="carousel">
+										<article class="item">
+											<p>
+												Example carousel text
+											</p>
+										</article>
+									</div>
 								</article>
 							</div>
 						</div>
@@ -166,7 +171,7 @@
 				</section>
 
 				<!-- social media + video -->
-				<section>
+				<section class="container-fluid">
 					<aside id="social-media">
 						<div class="row">
 							<div class="col-xs-12 col-md-6">

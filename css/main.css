@@ -1,8 +1,9 @@
 
 /************
 Palette:
-#314e22 - Pomona Green *GLOBAL*
-#22333B - Gunmetal
+#314e22 - Pomona Green *Brand Color*
+#fcffe4 - Tan Yellow (light)
+#22333B - Gunmetal Blue
 #f8fff4 - Mint Cream (light pale green)
 
 /**********************
@@ -42,7 +43,7 @@ a:focus {
 	MAIN HEADER
 	********************/
 #header-main {
-	padding: 24px 15px 18px;
+	padding: 24px 15px 0;
 	font-size: 2.4em;
 }
 #header-main #brand-logo-main {}
@@ -52,6 +53,7 @@ a:focus {
 }
 #contact-primary a {
 	color: #fff;
+	color: #22333b;
 	display: inline-block;
 	text-shadow: 0px 0 6px #18300D;
 	font-size: 100%;
@@ -62,11 +64,17 @@ a:focus {
 }
 #widget-1 {
 	text-align: right;
-	font-size: 1.5em;
+	font-size: .85em;
 	line-height: 1;
 }
-#widget-1 .fa {
+#widget-1 .fa-google-plus-square {
+	color: #ff7700;
+}
+#widget-1 .fa-linkedin-square {
 	color: #314e22;
+}
+#widget-1 .fa-facebook-official {
+	color: #22333b;
 }
 
 /***************************
@@ -100,6 +108,9 @@ nav ul li a {
 	line-height: 3; /* controls height of navigation! */
 	transition: all 100ms;
 	font-weight: lighter;
+}
+nav ul li a.active {
+	background-color: rgb(34,51,59);
 }
 nav ul li a:hover {
 	text-decoration: none;
@@ -177,10 +188,11 @@ feature-1 - CAROUSEL
 ************************/
 #feature-1.section {
 	padding: 0;
+	height: 80vh;
 }
 #feature-1 #carousel {
 	overflow: hidden;
-	max-height: 860px;
+	max-height: 90vh;
 }
 #feature-1 #carousel .item img{
 	max-height: 100%;
@@ -192,12 +204,15 @@ feature-1 - CAROUSEL
 	width: 100%;
 }
 .item.feature-photo {
-	min-height: 600px;
+	/*min-height: 600px;*/
+	min-height: 100%;
 	background-size: cover;
+	height: 100vh;
+	background-position: center bottom;
 }
 .item.feature-photo-1 {
 	background: #fff url(../images/feature/compressed/feature-1-min.jpg) no-repeat;
-	background-position: 0 100%;
+	/*background-position: 0 100%;*/
 }
 .feature-photo-2 {
 	background: #fff url(../images/feature/compressed/feature-2-min.jpg) no-repeat;
@@ -209,7 +224,7 @@ feature-1 - CAROUSEL
 }
 .feature-photo-4 {
 	background: #fff url(../images/feature/compressed/feature-4-min.jpg) no-repeat;
-	background-position: 25% 50%;
+	background-position: 25% 30%;
 }
 
 
