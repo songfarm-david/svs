@@ -136,7 +136,7 @@
 			<!-- Start of Contact Us -->
 			<section id="contact-us" class="container">
 				<div class="row">
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-7">
 						<article id="location">
 							<h4 class="hidden">Address: Corporate Head Office</h4>
 								<div class="row">
@@ -171,7 +171,6 @@
 													</div>
 												</div>
 											</div>
-
 										</article>
 									</div>
 									<div class="col-xs-12">
@@ -180,15 +179,12 @@
 								</div>
 						</article>
 					</div>
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-5">
 						<article id="contact-form">
 							<div class="row">
 								<div class="col-xs-12">
 									<form class="" action="" method="post">
 										<h3>Questions or Comments?</h3>
-										<!-- <p>
-											Get in touch with Dave!
-										</p> -->
 										<div class="row">
 											<div class="col-xs-12">
 												<input class="form-control" type="text" placeholder="Your name" name="name" value="">
@@ -211,10 +207,8 @@
 						</article>
 					</div>
 				</div>
-			</section>
 
-			<section id="social-media">
-				<div class="container-fluid">
+				<!-- <section id="social-media">
 					<div class="row">
 						<div class="col-xs-12 col-md-6">
 							<a href="#linktofacebook">
@@ -232,8 +226,11 @@
 							</section>
 						</div>
 					</div>
-				</div>
+				</section> -->
+
 			</section>
+
+
 			<!-- end of Contact Us -->
 
 		</main>

@@ -4,7 +4,7 @@
 		<main>
 			<!-- Feature Panel -->
 			<section id="feature-1" class="section">
-				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#carousel" data-slide-to="0" class="active"></li>

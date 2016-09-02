@@ -86,19 +86,19 @@ nav {
 	font-weight: normal;
 	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
 	position: relative;
-	z-index: 99;
+	z-index: 101;
 }
 nav ul.container {
 	list-style-type: none;
 	padding: 0;
 	margin-bottom: 0;
 	padding-left: 15px;
+	display: flex;
+	justify-content: center;
 }
 nav ul li {
 	display: inline-block;
-	float: right;
 	text-align: center;
-	/*width: 11%;*/
 }
 nav ul li a {
 	color: #fcffe4;
@@ -192,7 +192,7 @@ feature-1 - CAROUSEL
 ************************/
 #feature-1.section {
 	padding: 0;
-	height: 80vh;
+	height: 75vh;
 }
 #feature-1 #carousel {
 	overflow: hidden;
@@ -211,10 +211,9 @@ feature-1 - CAROUSEL
 	/*min-height: 600px;*/
 	min-height: 100%;
 	background-size: cover;
-	height: 100vh;
-	background-position: center bottom;
+	height: 75vh;
 }
-.item.feature-photo-1 {
+.feature-photo-1 {
 	background: #fff url(../images/feature/compressed/feature-1-min.jpg) no-repeat;
 	/*background-position: 0 100%;*/
 }
@@ -228,7 +227,7 @@ feature-1 - CAROUSEL
 }
 .feature-photo-4 {
 	background: #fff url(../images/feature/compressed/feature-4-min.jpg) no-repeat;
-	background-position: 25% 30%;
+	background-position: 25% 83%;
 }
 
 /*****************************
