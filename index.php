@@ -1,10 +1,22 @@
 <?php include('includes/header.php') ?>
 
+		
 		<!-- Main Content -->
 		<main>
 			<!-- Feature Panel -->
-			<section id="feature-1" class="section">
-				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+			<section id="feature-1" class="section container-fluid">
+
+				<div id="feature-overlay">
+					<div class="row" style="margin:0;">
+						<div class="col-md-12">
+								<div id="primary-brand-message" class="h1">
+									The only call you need to make
+								</div>
+							</div>
+						</div>
+				</div>
+
+				<div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="2000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -36,6 +48,7 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
+
 			</section>
 			<!-- Content-1 -->
 			<section id="content-1" class="section container-fluid">

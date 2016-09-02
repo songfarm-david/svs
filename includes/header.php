@@ -22,6 +22,11 @@
 			<div class="loader-home">Loading...</div>
 		</div>
 
+		<!-- Fixed CTA -->
+		<a href="contact-us.php" style="position:fixed;z-index:100000;color:#333;"><div class="">
+			Call Dave
+		</div></a>
+
 		<!-- CONTENT START -->
 
 		<!-- Main Header -->

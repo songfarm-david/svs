@@ -130,13 +130,12 @@
 		</div>
 		<!-- end of Breadcrumbs -->
 
-		<main>
-			<h1 class="hidden">Contact Us</h1>
-
+		<main class="container" style="background:white;">
+			<h1>Contact Us</h1>
 			<!-- Start of Contact Us -->
-			<section id="contact-us" class="container">
+			<section id="contact-us">
 				<div class="row">
-					<div class="col-xs-12 col-md-7">
+					<div class="col-xs-12 col-md-6">
 						<article id="location">
 							<h4 class="hidden">Address: Corporate Head Office</h4>
 								<div class="row">
@@ -179,7 +178,7 @@
 								</div>
 						</article>
 					</div>
-					<div class="col-xs-12 col-md-5">
+					<div class="col-xs-12 col-md-6">
 						<article id="contact-form">
 							<div class="row">
 								<div class="col-xs-12">

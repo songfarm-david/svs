@@ -13,6 +13,7 @@ body {
 	background-color: #edffe4;
 	min-width: 320px;
 	background-color: #fcffe4;
+	height: 100vh;
 }
 body.container-fluid {
 	padding: 0;
@@ -46,6 +47,7 @@ a:focus {
 #header-main {
 	padding: 24px 15px 0;
 	font-size: 2.4em;
+	/*height: 17vh;*/
 }
 #header-main #brand-logo-main {}
 #header-main #contact-primary {
@@ -190,13 +192,36 @@ ul.dropdown-content {
 /**********************
 feature-1 - CAROUSEL
 ************************/
-#feature-1.section {
+#feature-1 {
+	position: relative;
 	padding: 0;
-	height: 75vh;
+}
+#feature-1 #primary-brand-message {
+	position: absolute;
+	z-index: 1000;
+	top: 45px;
+	left: 21%;
+	color: white;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+	font-size: 2.8em;
+	/*margin-top: 0;*/
+	margin: 0;
+	font-family: 'Asap';
+	font-weight: lighter;
+}
+#feature-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	height: 160px;
+	background-color: rgba(0, 0, 0, 0.35);
+	margin: 0;
+	padding: 0;
 }
 #feature-1 #carousel {
 	overflow: hidden;
-	max-height: 90vh;
+	/*max-height: 90vh;*/
 }
 #feature-1 #carousel .item img{
 	max-height: 100%;
@@ -211,7 +236,7 @@ feature-1 - CAROUSEL
 	/*min-height: 600px;*/
 	min-height: 100%;
 	background-size: cover;
-	height: 75vh;
+	height: 78vh;
 }
 .feature-photo-1 {
 	background: #fff url(../images/feature/compressed/feature-1-min.jpg) no-repeat;
