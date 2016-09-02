@@ -1,22 +1,24 @@
-<!-- Footer -->
 <footer id="footer-primary">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
 				<h4>Hours &amp; Contact Info</h4>
 					<address class="">
-						<p>
+						<span>
 							<a href="tel:250-885-5455">(250)-885-5455</a>
-						</p>
-						<p>
+						</span>
+						<br>
+						<span>
 							123 W Fake St.
-						</p>
-						<p>
+						</span>
+						<br>
+						<span>
 							Victoria, British Columbia
-						</p>
-						<p>
+						</span>
+						<br>
+						<span>
 							V2Z 1H0
-						</p>
+						</span>
 						<p>
 							<small>Available through the week 9am-5pm.
 							<br>
@@ -46,6 +48,7 @@
 			</div>
 		</div>
 	</div>
+	<div id="highlight-banner"></div>
 </footer>
 <section class="container-fluid copyright">
 	<p>

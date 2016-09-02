@@ -6,15 +6,16 @@ Palette:
 #22333B - Gunmetal Blue
 #161819 - Eerie Black (compliments blue)
 #fcffe4 - Mint Cream (light pale green)
+********/
 
 /**********************
 GLOBAL STYLES
 ****************/
 body {
-	background-color: #edffe4;
 	min-width: 320px;
-	background-color: #fcffe4;
+	background-color: #A1B796;
 	height: 100vh;
+	color: #fff;
 }
 body.container-fluid {
 	padding: 0;
@@ -34,7 +35,7 @@ body.container-fluid {
 a:link,
 a:visited,
 a:focus {
-	color: #fcffe4;
+	color: #fff;
 	text-decoration: none;
 }
 .padding-off {}
@@ -46,11 +47,13 @@ a:focus {
 	SITE PAGES
 	****************/
 main {
-	margin-top: 34px; /* to account for breadcrumbs */
+	/*margin-top: 34px; */
+	/* to account for breadcrumbs */
 	position: relative;
 	z-index: 1;
+	color: #22333b;
 }
-main::after {
+/*main::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -59,8 +62,19 @@ main::after {
 	bottom: 0;
 	background-color: #fcffe4;
 	opacity: 0.25;
+}*/
+main > section {
+	background-color: #fff;
+	position: relative;
+	z-index: 10;
+	box-shadow: 0px 1px 12px 3px rgba(0, 0, 0, 0.3);
 }
-
+main > section > h1,
+main > section > h1 {
+	border-bottom: 3px solid #22333b;
+	padding: 15px 0 15px 15px;
+	color: #22333b;
+}
 
 /**************************
 	MAIN HEADER
@@ -68,7 +82,7 @@ main::after {
 #header-main {
 	padding: 24px 15px 0;
 	font-size: 2.4em;
-	/*height: 17vh;*/
+	background-color: #fcffe4;
 }
 #header-main #brand-logo-main {}
 #header-main #contact-primary {
@@ -109,7 +123,7 @@ nav {
 	font-weight: normal;
 	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
 	position: relative;
-	z-index: 101;
+	z-index: 100;
 }
 nav ul.container {
 	list-style-type: none;
@@ -192,24 +206,26 @@ ul.dropdown-content {
 	BREADCRUMBS
 	***************/
 #breadcrumbs {
-	position:absolute;
-	z-index: 100;
+	position: relative;
+	z-index: 99;
 	left: 0; right: 0;
 	line-height: 1;
 	background-color: #22333b;
-	/*text-align: right;*/
-	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
-
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,1);
+	/*margin-bottom: 34px;*/
 }
 #breadcrumbs ol {
 	margin: 0 auto;
 }
-#breadcrumbs li {
-	color: #dcccc3;
-
+#breadcrumbs li a {
+	color: #59724d;
 }
-#breadcrumbs .active {
-	color: #fcffe4;
+#breadcrumbs .active a {
+	color: #A1B796;
+}
+.breadcrumb > li + li:before {
+	color: #59724d;
+
 }
 
 /**********************
@@ -256,9 +272,9 @@ feature-1 - CAROUSEL
 	width: 100%;
 }
 .item.feature-photo {
-	/*min-height: 600px;*/
 	min-height: 100%;
 	background-size: cover;
+	min-height: 600px;
 	height: 78vh;
 }
 .feature-photo-1 {
@@ -287,7 +303,7 @@ CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
 	box-shadow: 0px 0px 5px black;
 }
 .section-row {
-	color: #fcffe4;
+	color: #fff;
 	padding: 45px 0 90px;
 	background-size: cover;
 	position: relative;
@@ -306,9 +322,9 @@ CONTENT-1 @ PRIMARY SERVICES/PRINCIPAL
 	font-size: 1.25em;
 	padding: 12px 54px;
 	background-color: transparent;
-	border: 2px solid #fcffe4;
+	border: 2px solid #fff;
 	height: 100%;
-	color: #fcffe4;
+	color: #fff;
 	border-radius: 3px;
 	margin-bottom: 30px;
 	transition: background-color 150ms;
@@ -390,7 +406,6 @@ CONTENT-2 @ ABOUT
 	padding: 15px;
 	line-height: 1.5;
 }
-
 #content-2 a.cta-about {
 	display: inline-block;
 	margin: 24px 0 18px;
@@ -544,12 +559,16 @@ TESTIMONIALS
 /********************
 FOOTER
 *****************/
-main + footer {
+main + footer,
+#footer a {
 	background-color: #22333B;
+	color: #fff;
+	position: relative;
+	z-index: 100;
 }
 #footer-primary {
 	padding: 45px 0;
-	color: #fcffe4;
+	/*color: #fcffe4;*/
 }
 #footer-primary section,
 #footer-primary article {
@@ -562,10 +581,10 @@ main + footer {
 	padding: 6px 0;
 }
 #footer-primary a {
-	color: #fcffe4;
+	/*color: #fcffe4;*/
 }
 #footer-primary a[class*="cta"] {
-	color: #F2B910;
+	/*color: #F2B910;*/
 }
 #footer-primary .special {
 	background-color: #fcffe4;
@@ -589,28 +608,27 @@ ul.social-links li {
 #footer-primary + section.copyright {
 	background-color: #161819;
 	text-align: center;
-	color: #858699;
+	color: #6C8460;
 	font-size: 0.9em;
 }
 #footer-primary + section.copyright p {
 	line-height: 60px;
 	margin: 0;
 }
+#highlight-banner {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	background-color: #314e22;
+	z-index: 101;
+	height: 15px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
 
+}
 
 /*******************
 	CONTACT US page
 	***************/
-#contact-us {
-	background-color: #fff;
-	position: relative;
-	z-index: 100000;
-	box-shadow: 0px 1px 12px 3px rgba(0, 0, 0, 0.3);
-}
-#contact-us > h1 {
-	border-bottom: 3px solid #22333b;
-	padding: 15px;
-}
 
 /*****************
 	LOCATION/ADDRESS
@@ -800,6 +818,15 @@ ul.social-links li {
 	height: 320px;
 	width: 100%;
 }
+
+
+/****************
+	SERVICES page
+	**************/
+#services > section {
+	margin: 15px;
+}
+
 
 
 /***********************
