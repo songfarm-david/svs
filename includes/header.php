@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	</head>
-	<body class="container-fluid">
+	<body>
 		<!-- Javascript Pre-loader -->
 		<div class="loading-part">
 			<div class="loader-home">Loading...</div>
@@ -99,12 +99,12 @@
 							</div>
 						</li>
 						<li class="dropdown-btn">
-							<a href="" data-toggle="collapse" data-target=".sub-nav-collapse-3">Parts &amp; Service</a>
+							<a href="services.php" data-toggle="collapse" data-target=".sub-nav-collapse-3">Parts &amp; Service</a>
 							<div class="collapse navbar-collapse sub-nav-collapse-3">
 								<ul class="dropdown-content">
-									<li><a href="services.php">Residential</a></li>
-									<li><a href="services.php">Commercial</a></li>
-									<li><a href="services.php">Regular Maintenance Plans</a></li>
+									<li><a href="services.php#residential">Residential</a></li>
+									<li><a href="services.php#commercial">Commercial</a></li>
+									<li><a href="services.php#rmp">Regular Maintenance Plans</a></li>
 								</ul>
 							</div>
 						</li>
